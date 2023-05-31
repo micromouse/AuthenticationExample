@@ -88,3 +88,647 @@ System.IO.IOException:  Received an unexpected EOF or 0 bytes from the transport
 2023-05-31 17:49:18.599 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7064/_framework/aspnetcore-browser-refresh.js - - - 200 12011 application/javascript;+charset=utf-8 40.4859ms
 2023-05-31 17:49:18.649 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7064/_vs/browserLink - -
 2023-05-31 17:49:18.817 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7064/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 167.4806ms
+2023-05-31 18:09:49.954 +08:00 [DBG] Initializing Razor view compiler with compiled view: '/Views/Account/Denied.cshtml'.
+2023-05-31 18:09:49.962 +08:00 [DBG] Initializing Razor view compiler with compiled view: '/Views/Account/Login.cshtml'.
+2023-05-31 18:09:49.965 +08:00 [DBG] Initializing Razor view compiler with compiled view: '/Views/Home/Index.cshtml'.
+2023-05-31 18:09:49.968 +08:00 [DBG] Initializing Razor view compiler with compiled view: '/Views/Home/Privacy.cshtml'.
+2023-05-31 18:09:49.970 +08:00 [DBG] Initializing Razor view compiler with compiled view: '/Views/Shared/Error.cshtml'.
+2023-05-31 18:09:49.973 +08:00 [DBG] Initializing Razor view compiler with compiled view: '/Views/Shared/NotFound.cshtml'.
+2023-05-31 18:09:49.975 +08:00 [DBG] Initializing Razor view compiler with compiled view: '/Views/Shared/_ValidationScriptsPartial.cshtml'.
+2023-05-31 18:09:49.977 +08:00 [DBG] Initializing Razor view compiler with compiled view: '/Views/_ViewImports.cshtml'.
+2023-05-31 18:09:49.979 +08:00 [DBG] Initializing Razor view compiler with compiled view: '/Views/_ViewStart.cshtml'.
+2023-05-31 18:09:49.982 +08:00 [DBG] Initializing Razor view compiler with compiled view: '/Views/Shared/_Layout.cshtml'.
+2023-05-31 18:09:49.994 +08:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider"]
+2023-05-31 18:09:50.090 +08:00 [DBG] Hosting starting
+2023-05-31 18:09:50.128 +08:00 [INF] User profile is available. Using 'C:\Users\mumu\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-05-31 18:09:50.134 +08:00 [DBG] Reading data from file 'C:\Users\mumu\AppData\Local\ASP.NET\DataProtection-Keys\key-91ca31a8-49e0-482f-a401-da48a0dbda3e.xml'.
+2023-05-31 18:09:50.143 +08:00 [DBG] Reading data from file 'C:\Users\mumu\AppData\Local\ASP.NET\DataProtection-Keys\key-c12d8abc-ea2c-4170-833b-0a127cab01a4.xml'.
+2023-05-31 18:09:50.146 +08:00 [DBG] Reading data from file 'C:\Users\mumu\AppData\Local\ASP.NET\DataProtection-Keys\key-ef1f17f6-d4b0-4191-93cb-0d0cfc3860a5.xml'.
+2023-05-31 18:09:50.152 +08:00 [DBG] Found key {91ca31a8-49e0-482f-a401-da48a0dbda3e}.
+2023-05-31 18:09:50.160 +08:00 [DBG] Found key {c12d8abc-ea2c-4170-833b-0a127cab01a4}.
+2023-05-31 18:09:50.162 +08:00 [DBG] Found key {ef1f17f6-d4b0-4191-93cb-0d0cfc3860a5}.
+2023-05-31 18:09:50.172 +08:00 [DBG] Considering key {ef1f17f6-d4b0-4191-93cb-0d0cfc3860a5} with expiration date 2023-08-07 06:14:29Z as default key.
+2023-05-31 18:09:50.177 +08:00 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Version=6.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2023-05-31 18:09:50.181 +08:00 [DBG] Decrypting secret element using Windows DPAPI.
+2023-05-31 18:09:50.188 +08:00 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Version=6.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2023-05-31 18:09:50.193 +08:00 [DBG] Opening CNG algorithm 'AES' from provider 'null' with chaining mode CBC.
+2023-05-31 18:09:50.197 +08:00 [DBG] Opening CNG algorithm 'SHA256' from provider 'null' with HMAC.
+2023-05-31 18:09:50.203 +08:00 [DBG] Using key {ef1f17f6-d4b0-4191-93cb-0d0cfc3860a5} as the default key.
+2023-05-31 18:09:50.206 +08:00 [DBG] Key ring with default key {ef1f17f6-d4b0-4191-93cb-0d0cfc3860a5} was loaded during application startup.
+2023-05-31 18:09:50.370 +08:00 [INF] Now listening on: https://localhost:7064
+2023-05-31 18:09:50.372 +08:00 [INF] Now listening on: http://localhost:5125
+2023-05-31 18:09:50.374 +08:00 [DBG] Loaded hosting startup assembly CookieAuthenticatioin
+2023-05-31 18:09:50.376 +08:00 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2023-05-31 18:09:50.378 +08:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2023-05-31 18:09:50.381 +08:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-05-31 18:09:50.385 +08:00 [INF] Hosting environment: Development
+2023-05-31 18:09:50.387 +08:00 [INF] Content root path: D:\myStudies\AuthenticationExample\CookieAuthenticatioin
+2023-05-31 18:09:50.389 +08:00 [DBG] Hosting started
+2023-05-31 18:09:50.550 +08:00 [DBG] Connection id "0HMR1NSLTMOQJ" accepted.
+2023-05-31 18:09:50.554 +08:00 [DBG] Connection id "0HMR1NSLTMOQK" accepted.
+2023-05-31 18:09:50.555 +08:00 [DBG] Connection id "0HMR1NSLTMOQJ" started.
+2023-05-31 18:09:50.560 +08:00 [DBG] Connection id "0HMR1NSLTMOQK" started.
+2023-05-31 18:09:51.444 +08:00 [DBG] Connection id "0HMR1NSLTMOQL" accepted.
+2023-05-31 18:09:52.146 +08:00 [DBG] Connection id "0HMR1NSLTMOQL" started.
+2023-05-31 18:09:52.239 +08:00 [DBG] Connection 0HMR1NSLTMOQL established using the following protocol: "Tls13"
+2023-05-31 18:09:52.580 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7064/ - -
+2023-05-31 18:09:52.673 +08:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2023-05-31 18:09:52.684 +08:00 [DBG] The request path / does not match a supported file type
+2023-05-31 18:09:52.743 +08:00 [DBG] 1 candidate(s) found for the request path '/'
+2023-05-31 18:09:52.748 +08:00 [DBG] Endpoint 'AuthenticationExample.CookieAuthenticatioin.Controllers.HomeController.Index (CookieAuthenticatioin)' with route pattern '{controller=Home}/{action=Index}/{id?}' is valid for the request path '/'
+2023-05-31 18:09:52.754 +08:00 [DBG] Request matched endpoint 'AuthenticationExample.CookieAuthenticatioin.Controllers.HomeController.Index (CookieAuthenticatioin)'
+2023-05-31 18:09:52.777 +08:00 [DBG] AuthenticationScheme: Cookies was not authenticated.
+2023-05-31 18:09:52.786 +08:00 [INF] Executing endpoint 'AuthenticationExample.CookieAuthenticatioin.Controllers.HomeController.Index (CookieAuthenticatioin)'
+2023-05-31 18:09:52.847 +08:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller AuthenticationExample.CookieAuthenticatioin.Controllers.HomeController (CookieAuthenticatioin).
+2023-05-31 18:09:52.855 +08:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2023-05-31 18:09:52.859 +08:00 [DBG] Execution plan of resource filters (in the following order): ["Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter"]
+2023-05-31 18:09:52.863 +08:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.Filters.ControllerActionFilter (Order: -2147483648)","Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)"]
+2023-05-31 18:09:52.867 +08:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2023-05-31 18:09:52.873 +08:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter"]
+2023-05-31 18:09:52.883 +08:00 [DBG] Executing controller factory for controller AuthenticationExample.CookieAuthenticatioin.Controllers.HomeController (CookieAuthenticatioin)
+2023-05-31 18:09:52.890 +08:00 [DBG] Executed controller factory for controller AuthenticationExample.CookieAuthenticatioin.Controllers.HomeController (CookieAuthenticatioin)
+2023-05-31 18:09:53.071 +08:00 [INF] Executing action method AuthenticationExample.CookieAuthenticatioin.Controllers.HomeController.Index (CookieAuthenticatioin) - Validation state: "Valid"
+2023-05-31 18:09:53.081 +08:00 [INF] Executed action method AuthenticationExample.CookieAuthenticatioin.Controllers.HomeController.Index (CookieAuthenticatioin), returned result Microsoft.AspNetCore.Mvc.ViewResult in 1.5269ms.
+2023-05-31 18:09:53.093 +08:00 [DBG] View lookup cache miss for view 'Index' in controller 'Home'.
+2023-05-31 18:09:53.105 +08:00 [INF] Executing ViewResult, running view Index.
+2023-05-31 18:09:53.112 +08:00 [DBG] The view path '/Views/Home/Index.cshtml' was found in 15.0473ms.
+2023-05-31 18:09:53.441 +08:00 [DBG] View lookup cache miss for view '_Layout' in controller 'Home'.
+2023-05-31 18:09:53.531 +08:00 [DBG] Found the endpoints ["Route: {controller=Home}/{action=Index}/{id?}"] for address (area=[],action=[Index],controller=[Home])
+2023-05-31 18:09:53.547 +08:00 [DBG] Successfully processed template {controller=Home}/{action=Index}/{id?} for Route: {controller=Home}/{action=Index}/{id?} resulting in  and 
+2023-05-31 18:09:53.551 +08:00 [DBG] Link generation succeeded for endpoints ["Route: {controller=Home}/{action=Index}/{id?}"] with result /
+2023-05-31 18:09:53.560 +08:00 [DBG] Found the endpoints ["Route: {controller=Home}/{action=Index}/{id?}"] for address (area=[],action=[Index],controller=[Home])
+2023-05-31 18:09:53.564 +08:00 [DBG] Successfully processed template {controller=Home}/{action=Index}/{id?} for Route: {controller=Home}/{action=Index}/{id?} resulting in  and 
+2023-05-31 18:09:53.569 +08:00 [DBG] Link generation succeeded for endpoints ["Route: {controller=Home}/{action=Index}/{id?}"] with result /
+2023-05-31 18:09:53.575 +08:00 [DBG] Found the endpoints ["Route: {controller=Home}/{action=Index}/{id?}"] for address (area=[],action=[Privacy],controller=[Home])
+2023-05-31 18:09:53.579 +08:00 [DBG] Successfully processed template {controller=Home}/{action=Index}/{id?} for Route: {controller=Home}/{action=Index}/{id?} resulting in /Home/Privacy and 
+2023-05-31 18:09:53.583 +08:00 [DBG] Link generation succeeded for endpoints ["Route: {controller=Home}/{action=Index}/{id?}"] with result /Home/Privacy
+2023-05-31 18:09:53.594 +08:00 [DBG] Found the endpoints ["Route: {controller=Home}/{action=Index}/{id?}"] for address (area=[],action=[Privacy],controller=[Home])
+2023-05-31 18:09:53.598 +08:00 [DBG] Successfully processed template {controller=Home}/{action=Index}/{id?} for Route: {controller=Home}/{action=Index}/{id?} resulting in /Home/Privacy and 
+2023-05-31 18:09:53.601 +08:00 [DBG] Link generation succeeded for endpoints ["Route: {controller=Home}/{action=Index}/{id?}"] with result /Home/Privacy
+2023-05-31 18:09:53.749 +08:00 [INF] Executed ViewResult - view Index executed in 656.513ms.
+2023-05-31 18:09:53.758 +08:00 [INF] Executed action AuthenticationExample.CookieAuthenticatioin.Controllers.HomeController.Index (CookieAuthenticatioin) in 880.0837ms
+2023-05-31 18:09:53.762 +08:00 [INF] Executed endpoint 'AuthenticationExample.CookieAuthenticatioin.Controllers.HomeController.Index (CookieAuthenticatioin)'
+2023-05-31 18:09:53.767 +08:00 [INF] HTTP GET / responded 200 in 1084.9597 ms
+2023-05-31 18:09:53.786 +08:00 [DBG] Response markup is scheduled to include browser refresh script injection.
+2023-05-31 18:09:53.804 +08:00 [DBG] Response markup was updated to include browser refresh script injection.
+2023-05-31 18:09:53.811 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7064/ - - - 200 - text/html;+charset=utf-8 1234.4579ms
+2023-05-31 18:09:54.162 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7064/_framework/aspnetcore-browser-refresh.js - -
+2023-05-31 18:09:54.174 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7064/_vs/browserLink - -
+2023-05-31 18:09:54.179 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7064/_framework/aspnetcore-browser-refresh.js - - - 200 12012 application/javascript;+charset=utf-8 16.8684ms
+2023-05-31 18:09:54.283 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7064/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 109.4130ms
+2023-05-31 18:10:00.578 +08:00 [DBG] Authentication of the HTTPS connection timed out.
+2023-05-31 18:10:00.584 +08:00 [DBG] Connection id "0HMR1NSLTMOQK" stopped.
+2023-05-31 18:10:00.587 +08:00 [DBG] Connection id "0HMR1NSLTMOQK" sending FIN because: "The Socket transport's send loop completed gracefully."
+2023-05-31 18:10:00.622 +08:00 [DBG] Authentication of the HTTPS connection timed out.
+2023-05-31 18:10:00.625 +08:00 [DBG] Connection id "0HMR1NSLTMOQJ" stopped.
+2023-05-31 18:10:00.628 +08:00 [DBG] Connection id "0HMR1NSLTMOQJ" sending FIN because: "The Socket transport's send loop completed gracefully."
+2023-05-31 18:10:09.577 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7064/Home/Privacy - -
+2023-05-31 18:10:09.581 +08:00 [DBG] The request path /Home/Privacy does not match a supported file type
+2023-05-31 18:10:09.588 +08:00 [DBG] 1 candidate(s) found for the request path '/Home/Privacy'
+2023-05-31 18:10:09.592 +08:00 [DBG] Endpoint 'AuthenticationExample.CookieAuthenticatioin.Controllers.HomeController.Privacy (CookieAuthenticatioin)' with route pattern '{controller=Home}/{action=Index}/{id?}' is valid for the request path '/Home/Privacy'
+2023-05-31 18:10:09.597 +08:00 [DBG] Request matched endpoint 'AuthenticationExample.CookieAuthenticatioin.Controllers.HomeController.Privacy (CookieAuthenticatioin)'
+2023-05-31 18:10:09.602 +08:00 [DBG] AuthenticationScheme: Cookies was not authenticated.
+2023-05-31 18:10:09.613 +08:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2023-05-31 18:10:09.621 +08:00 [INF] AuthenticationScheme: Cookies was challenged.
+2023-05-31 18:10:09.625 +08:00 [INF] HTTP GET /Home/Privacy responded 302 in 43.4827 ms
+2023-05-31 18:10:09.629 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7064/Home/Privacy - - - 302 0 - 52.6951ms
+2023-05-31 18:10:09.635 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7064/Account/Login?ReturnUrl=%2FHome%2FPrivacy - -
+2023-05-31 18:10:09.639 +08:00 [DBG] The request path /Account/Login does not match a supported file type
+2023-05-31 18:10:09.643 +08:00 [DBG] 1 candidate(s) found for the request path '/Account/Login'
+2023-05-31 18:10:09.645 +08:00 [DBG] Endpoint 'AuthenticationExample.CookieAuthenticatioin.Controllers.AccountController.Login (CookieAuthenticatioin)' with route pattern '{controller=Home}/{action=Index}/{id?}' is valid for the request path '/Account/Login'
+2023-05-31 18:10:09.652 +08:00 [DBG] Request matched endpoint 'AuthenticationExample.CookieAuthenticatioin.Controllers.AccountController.Login (CookieAuthenticatioin)'
+2023-05-31 18:10:09.657 +08:00 [DBG] AuthenticationScheme: Cookies was not authenticated.
+2023-05-31 18:10:09.659 +08:00 [INF] Executing endpoint 'AuthenticationExample.CookieAuthenticatioin.Controllers.AccountController.Login (CookieAuthenticatioin)'
+2023-05-31 18:10:09.673 +08:00 [INF] Route matched with {action = "Login", controller = "Account"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Login(System.String) on controller AuthenticationExample.CookieAuthenticatioin.Controllers.AccountController (CookieAuthenticatioin).
+2023-05-31 18:10:09.678 +08:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2023-05-31 18:10:09.685 +08:00 [DBG] Execution plan of resource filters (in the following order): ["Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter"]
+2023-05-31 18:10:09.691 +08:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.Filters.ControllerActionFilter (Order: -2147483648)","Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)"]
+2023-05-31 18:10:09.697 +08:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2023-05-31 18:10:09.704 +08:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter"]
+2023-05-31 18:10:09.709 +08:00 [DBG] Executing controller factory for controller AuthenticationExample.CookieAuthenticatioin.Controllers.AccountController (CookieAuthenticatioin)
+2023-05-31 18:10:09.712 +08:00 [DBG] Executed controller factory for controller AuthenticationExample.CookieAuthenticatioin.Controllers.AccountController (CookieAuthenticatioin)
+2023-05-31 18:10:09.727 +08:00 [DBG] Attempting to bind parameter 'returnUrl' of type 'System.String' ...
+2023-05-31 18:10:09.736 +08:00 [DBG] Attempting to bind parameter 'returnUrl' of type 'System.String' using the name 'returnUrl' in request data ...
+2023-05-31 18:10:09.743 +08:00 [DBG] Done attempting to bind parameter 'returnUrl' of type 'System.String'.
+2023-05-31 18:10:09.746 +08:00 [DBG] Done attempting to bind parameter 'returnUrl' of type 'System.String'.
+2023-05-31 18:10:09.750 +08:00 [DBG] Attempting to validate the bound parameter 'returnUrl' of type 'System.String' ...
+2023-05-31 18:10:09.756 +08:00 [DBG] Done attempting to validate the bound parameter 'returnUrl' of type 'System.String'.
+2023-05-31 18:10:09.790 +08:00 [INF] Executing action method AuthenticationExample.CookieAuthenticatioin.Controllers.AccountController.Login (CookieAuthenticatioin) - Validation state: "Valid"
+2023-05-31 18:10:09.793 +08:00 [INF] Executed action method AuthenticationExample.CookieAuthenticatioin.Controllers.AccountController.Login (CookieAuthenticatioin), returned result Microsoft.AspNetCore.Mvc.ViewResult in 0.4716ms.
+2023-05-31 18:10:09.797 +08:00 [DBG] View lookup cache miss for view 'Login' in controller 'Account'.
+2023-05-31 18:10:09.802 +08:00 [INF] Executing ViewResult, running view Login.
+2023-05-31 18:10:09.805 +08:00 [DBG] The view path '/Views/Account/Login.cshtml' was found in 8.4319ms.
+2023-05-31 18:10:09.815 +08:00 [DBG] Found the endpoints ["Route: {controller=Home}/{action=Index}/{id?}"] for address (action=[Login],controller=[Account])
+2023-05-31 18:10:09.821 +08:00 [DBG] Successfully processed template {controller=Home}/{action=Index}/{id?} for Route: {controller=Home}/{action=Index}/{id?} resulting in /Account/Login and 
+2023-05-31 18:10:09.825 +08:00 [DBG] Link generation succeeded for endpoints ["Route: {controller=Home}/{action=Index}/{id?}"] with result /Account/Login
+2023-05-31 18:10:09.838 +08:00 [DBG] A new antiforgery cookie token was created.
+2023-05-31 18:10:09.872 +08:00 [DBG] Found the endpoints ["Route: {controller=Home}/{action=Index}/{id?}"] for address (area=[],action=[Index],controller=[Home])
+2023-05-31 18:10:09.877 +08:00 [DBG] Successfully processed template {controller=Home}/{action=Index}/{id?} for Route: {controller=Home}/{action=Index}/{id?} resulting in  and 
+2023-05-31 18:10:09.881 +08:00 [DBG] Link generation succeeded for endpoints ["Route: {controller=Home}/{action=Index}/{id?}"] with result /
+2023-05-31 18:10:09.886 +08:00 [DBG] Found the endpoints ["Route: {controller=Home}/{action=Index}/{id?}"] for address (area=[],action=[Index],controller=[Home])
+2023-05-31 18:10:09.889 +08:00 [DBG] Successfully processed template {controller=Home}/{action=Index}/{id?} for Route: {controller=Home}/{action=Index}/{id?} resulting in  and 
+2023-05-31 18:10:09.895 +08:00 [DBG] Link generation succeeded for endpoints ["Route: {controller=Home}/{action=Index}/{id?}"] with result /
+2023-05-31 18:10:09.902 +08:00 [DBG] Found the endpoints ["Route: {controller=Home}/{action=Index}/{id?}"] for address (area=[],action=[Privacy],controller=[Home])
+2023-05-31 18:10:09.906 +08:00 [DBG] Successfully processed template {controller=Home}/{action=Index}/{id?} for Route: {controller=Home}/{action=Index}/{id?} resulting in /Home/Privacy and 
+2023-05-31 18:10:09.913 +08:00 [DBG] Link generation succeeded for endpoints ["Route: {controller=Home}/{action=Index}/{id?}"] with result /Home/Privacy
+2023-05-31 18:10:09.922 +08:00 [DBG] Found the endpoints ["Route: {controller=Home}/{action=Index}/{id?}"] for address (area=[],action=[Privacy],controller=[Home])
+2023-05-31 18:10:09.927 +08:00 [DBG] Successfully processed template {controller=Home}/{action=Index}/{id?} for Route: {controller=Home}/{action=Index}/{id?} resulting in /Home/Privacy and 
+2023-05-31 18:10:09.931 +08:00 [DBG] Link generation succeeded for endpoints ["Route: {controller=Home}/{action=Index}/{id?}"] with result /Home/Privacy
+2023-05-31 18:10:09.962 +08:00 [INF] Executed ViewResult - view Login executed in 165.2801ms.
+2023-05-31 18:10:09.970 +08:00 [INF] Executed action AuthenticationExample.CookieAuthenticatioin.Controllers.AccountController.Login (CookieAuthenticatioin) in 261.6678ms
+2023-05-31 18:10:09.974 +08:00 [INF] Executed endpoint 'AuthenticationExample.CookieAuthenticatioin.Controllers.AccountController.Login (CookieAuthenticatioin)'
+2023-05-31 18:10:09.976 +08:00 [INF] HTTP GET /Account/Login responded 200 in 337.1341 ms
+2023-05-31 18:10:09.982 +08:00 [DBG] Response markup is scheduled to include browser refresh script injection.
+2023-05-31 18:10:09.992 +08:00 [DBG] Response markup was updated to include browser refresh script injection.
+2023-05-31 18:10:09.994 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7064/Account/Login?ReturnUrl=%2FHome%2FPrivacy - - - 200 - text/html;+charset=utf-8 359.6161ms
+2023-05-31 18:10:10.024 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7064/_vs/browserLink - -
+2023-05-31 18:10:10.024 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7064/_framework/aspnetcore-browser-refresh.js - -
+2023-05-31 18:10:10.029 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7064/_framework/aspnetcore-browser-refresh.js - - - 200 12012 application/javascript;+charset=utf-8 4.8589ms
+2023-05-31 18:10:10.084 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7064/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 59.5169ms
+2023-05-31 18:10:13.917 +08:00 [INF] Request starting HTTP/2 POST https://localhost:7064/Account/Login application/x-www-form-urlencoded 245
+2023-05-31 18:10:13.922 +08:00 [DBG] POST requests are not supported
+2023-05-31 18:10:13.926 +08:00 [DBG] 1 candidate(s) found for the request path '/Account/Login'
+2023-05-31 18:10:13.928 +08:00 [DBG] Endpoint 'AuthenticationExample.CookieAuthenticatioin.Controllers.AccountController.Login (CookieAuthenticatioin)' with route pattern '{controller=Home}/{action=Index}/{id?}' is valid for the request path '/Account/Login'
+2023-05-31 18:10:13.933 +08:00 [DBG] Request matched endpoint 'AuthenticationExample.CookieAuthenticatioin.Controllers.AccountController.Login (CookieAuthenticatioin)'
+2023-05-31 18:10:13.938 +08:00 [DBG] AuthenticationScheme: Cookies was not authenticated.
+2023-05-31 18:10:13.941 +08:00 [INF] Executing endpoint 'AuthenticationExample.CookieAuthenticatioin.Controllers.AccountController.Login (CookieAuthenticatioin)'
+2023-05-31 18:10:13.957 +08:00 [INF] Route matched with {action = "Login", controller = "Account"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(AuthenticationExample.CookieAuthenticatioin.Models.LoginViewModel) on controller AuthenticationExample.CookieAuthenticatioin.Controllers.AccountController (CookieAuthenticatioin).
+2023-05-31 18:10:13.964 +08:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2023-05-31 18:10:13.970 +08:00 [DBG] Execution plan of resource filters (in the following order): ["Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter"]
+2023-05-31 18:10:13.978 +08:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.Filters.ControllerActionFilter (Order: -2147483648)","Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)"]
+2023-05-31 18:10:13.984 +08:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2023-05-31 18:10:13.990 +08:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter"]
+2023-05-31 18:10:13.996 +08:00 [DBG] Executing controller factory for controller AuthenticationExample.CookieAuthenticatioin.Controllers.AccountController (CookieAuthenticatioin)
+2023-05-31 18:10:14.001 +08:00 [DBG] Executed controller factory for controller AuthenticationExample.CookieAuthenticatioin.Controllers.AccountController (CookieAuthenticatioin)
+2023-05-31 18:10:14.009 +08:00 [DBG] Connection id "0HMR1NSLTMOQL", Request id "0HMR1NSLTMOQL:0000000F": started reading request body.
+2023-05-31 18:10:14.013 +08:00 [DBG] Connection id "0HMR1NSLTMOQL", Request id "0HMR1NSLTMOQL:0000000F": done reading request body.
+2023-05-31 18:10:14.020 +08:00 [DBG] Attempting to bind parameter 'model' of type 'AuthenticationExample.CookieAuthenticatioin.Models.LoginViewModel' ...
+2023-05-31 18:10:14.029 +08:00 [DBG] Attempting to bind parameter 'model' of type 'AuthenticationExample.CookieAuthenticatioin.Models.LoginViewModel' using the name '' in request data ...
+2023-05-31 18:10:14.038 +08:00 [DBG] Attempting to bind property 'AuthenticationExample.CookieAuthenticatioin.Models.LoginViewModel.Username' of type 'System.String' using the name 'Username' in request data ...
+2023-05-31 18:10:14.045 +08:00 [DBG] Done attempting to bind property 'AuthenticationExample.CookieAuthenticatioin.Models.LoginViewModel.Username' of type 'System.String'.
+2023-05-31 18:10:14.048 +08:00 [DBG] Attempting to bind property 'AuthenticationExample.CookieAuthenticatioin.Models.LoginViewModel.Password' of type 'System.String' using the name 'Password' in request data ...
+2023-05-31 18:10:14.053 +08:00 [DBG] Done attempting to bind property 'AuthenticationExample.CookieAuthenticatioin.Models.LoginViewModel.Password' of type 'System.String'.
+2023-05-31 18:10:14.061 +08:00 [DBG] Attempting to bind property 'AuthenticationExample.CookieAuthenticatioin.Models.LoginViewModel.ReturnUrl' of type 'System.String' using the name 'ReturnUrl' in request data ...
+2023-05-31 18:10:14.064 +08:00 [DBG] Done attempting to bind property 'AuthenticationExample.CookieAuthenticatioin.Models.LoginViewModel.ReturnUrl' of type 'System.String'.
+2023-05-31 18:10:14.068 +08:00 [DBG] Done attempting to bind parameter 'model' of type 'AuthenticationExample.CookieAuthenticatioin.Models.LoginViewModel'.
+2023-05-31 18:10:14.076 +08:00 [DBG] Done attempting to bind parameter 'model' of type 'AuthenticationExample.CookieAuthenticatioin.Models.LoginViewModel'.
+2023-05-31 18:10:14.079 +08:00 [DBG] Attempting to validate the bound parameter 'model' of type 'AuthenticationExample.CookieAuthenticatioin.Models.LoginViewModel' ...
+2023-05-31 18:10:14.089 +08:00 [DBG] Done attempting to validate the bound parameter 'model' of type 'AuthenticationExample.CookieAuthenticatioin.Models.LoginViewModel'.
+2023-05-31 18:10:14.114 +08:00 [INF] Executing action method AuthenticationExample.CookieAuthenticatioin.Controllers.AccountController.Login (CookieAuthenticatioin) - Validation state: "Valid"
+2023-05-31 18:10:14.120 +08:00 [INF] Executed action method AuthenticationExample.CookieAuthenticatioin.Controllers.AccountController.Login (CookieAuthenticatioin), returned result Microsoft.AspNetCore.Mvc.RedirectResult in 2.6639ms.
+2023-05-31 18:10:14.125 +08:00 [INF] Executing RedirectResult, redirecting to /Account/Login?returnUrl=/Home/Privacy.
+2023-05-31 18:10:14.127 +08:00 [INF] Executed action AuthenticationExample.CookieAuthenticatioin.Controllers.AccountController.Login (CookieAuthenticatioin) in 131.8487ms
+2023-05-31 18:10:14.130 +08:00 [INF] Executed endpoint 'AuthenticationExample.CookieAuthenticatioin.Controllers.AccountController.Login (CookieAuthenticatioin)'
+2023-05-31 18:10:14.133 +08:00 [INF] HTTP POST /Account/Login responded 302 in 210.7306 ms
+2023-05-31 18:10:14.137 +08:00 [INF] Request finished HTTP/2 POST https://localhost:7064/Account/Login application/x-www-form-urlencoded 245 - 302 0 - 220.0274ms
+2023-05-31 18:10:14.142 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7064/Account/Login?returnUrl=/Home/Privacy - -
+2023-05-31 18:10:14.144 +08:00 [DBG] The request path /Account/Login does not match a supported file type
+2023-05-31 18:10:14.148 +08:00 [DBG] 1 candidate(s) found for the request path '/Account/Login'
+2023-05-31 18:10:14.151 +08:00 [DBG] Endpoint 'AuthenticationExample.CookieAuthenticatioin.Controllers.AccountController.Login (CookieAuthenticatioin)' with route pattern '{controller=Home}/{action=Index}/{id?}' is valid for the request path '/Account/Login'
+2023-05-31 18:10:14.155 +08:00 [DBG] Request matched endpoint 'AuthenticationExample.CookieAuthenticatioin.Controllers.AccountController.Login (CookieAuthenticatioin)'
+2023-05-31 18:10:14.157 +08:00 [DBG] AuthenticationScheme: Cookies was not authenticated.
+2023-05-31 18:10:14.160 +08:00 [INF] Executing endpoint 'AuthenticationExample.CookieAuthenticatioin.Controllers.AccountController.Login (CookieAuthenticatioin)'
+2023-05-31 18:10:14.162 +08:00 [INF] Route matched with {action = "Login", controller = "Account"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Login(System.String) on controller AuthenticationExample.CookieAuthenticatioin.Controllers.AccountController (CookieAuthenticatioin).
+2023-05-31 18:10:14.167 +08:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2023-05-31 18:10:14.171 +08:00 [DBG] Execution plan of resource filters (in the following order): ["Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter"]
+2023-05-31 18:10:14.174 +08:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.Filters.ControllerActionFilter (Order: -2147483648)","Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)"]
+2023-05-31 18:10:14.178 +08:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2023-05-31 18:10:14.183 +08:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter"]
+2023-05-31 18:10:14.186 +08:00 [DBG] Executing controller factory for controller AuthenticationExample.CookieAuthenticatioin.Controllers.AccountController (CookieAuthenticatioin)
+2023-05-31 18:10:14.189 +08:00 [DBG] Executed controller factory for controller AuthenticationExample.CookieAuthenticatioin.Controllers.AccountController (CookieAuthenticatioin)
+2023-05-31 18:10:14.197 +08:00 [DBG] Attempting to bind parameter 'returnUrl' of type 'System.String' ...
+2023-05-31 18:10:14.205 +08:00 [DBG] Attempting to bind parameter 'returnUrl' of type 'System.String' using the name 'returnUrl' in request data ...
+2023-05-31 18:10:14.211 +08:00 [DBG] Done attempting to bind parameter 'returnUrl' of type 'System.String'.
+2023-05-31 18:10:14.220 +08:00 [DBG] Done attempting to bind parameter 'returnUrl' of type 'System.String'.
+2023-05-31 18:10:14.226 +08:00 [DBG] Attempting to validate the bound parameter 'returnUrl' of type 'System.String' ...
+2023-05-31 18:10:14.229 +08:00 [DBG] Done attempting to validate the bound parameter 'returnUrl' of type 'System.String'.
+2023-05-31 18:10:14.252 +08:00 [INF] Executing action method AuthenticationExample.CookieAuthenticatioin.Controllers.AccountController.Login (CookieAuthenticatioin) - Validation state: "Valid"
+2023-05-31 18:10:14.257 +08:00 [INF] Executed action method AuthenticationExample.CookieAuthenticatioin.Controllers.AccountController.Login (CookieAuthenticatioin), returned result Microsoft.AspNetCore.Mvc.ViewResult in 0.0324ms.
+2023-05-31 18:10:14.260 +08:00 [DBG] View lookup cache hit for view 'Login' in controller 'Account'.
+2023-05-31 18:10:14.263 +08:00 [INF] Executing ViewResult, running view Login.
+2023-05-31 18:10:14.265 +08:00 [DBG] The view path '/Views/Account/Login.cshtml' was found in 5.1953ms.
+2023-05-31 18:10:14.271 +08:00 [DBG] Found the endpoints ["Route: {controller=Home}/{action=Index}/{id?}"] for address (action=[Login],controller=[Account])
+2023-05-31 18:10:14.275 +08:00 [DBG] Successfully processed template {controller=Home}/{action=Index}/{id?} for Route: {controller=Home}/{action=Index}/{id?} resulting in /Account/Login and 
+2023-05-31 18:10:14.278 +08:00 [DBG] Link generation succeeded for endpoints ["Route: {controller=Home}/{action=Index}/{id?}"] with result /Account/Login
+2023-05-31 18:10:14.283 +08:00 [DBG] An antiforgery cookie token was reused.
+2023-05-31 18:10:14.288 +08:00 [DBG] Found the endpoints ["Route: {controller=Home}/{action=Index}/{id?}"] for address (area=[],action=[Index],controller=[Home])
+2023-05-31 18:10:14.292 +08:00 [DBG] Successfully processed template {controller=Home}/{action=Index}/{id?} for Route: {controller=Home}/{action=Index}/{id?} resulting in  and 
+2023-05-31 18:10:14.295 +08:00 [DBG] Link generation succeeded for endpoints ["Route: {controller=Home}/{action=Index}/{id?}"] with result /
+2023-05-31 18:10:14.298 +08:00 [DBG] Found the endpoints ["Route: {controller=Home}/{action=Index}/{id?}"] for address (area=[],action=[Index],controller=[Home])
+2023-05-31 18:10:14.304 +08:00 [DBG] Successfully processed template {controller=Home}/{action=Index}/{id?} for Route: {controller=Home}/{action=Index}/{id?} resulting in  and 
+2023-05-31 18:10:14.308 +08:00 [DBG] Link generation succeeded for endpoints ["Route: {controller=Home}/{action=Index}/{id?}"] with result /
+2023-05-31 18:10:14.311 +08:00 [DBG] Found the endpoints ["Route: {controller=Home}/{action=Index}/{id?}"] for address (area=[],action=[Privacy],controller=[Home])
+2023-05-31 18:10:14.314 +08:00 [DBG] Successfully processed template {controller=Home}/{action=Index}/{id?} for Route: {controller=Home}/{action=Index}/{id?} resulting in /Home/Privacy and 
+2023-05-31 18:10:14.318 +08:00 [DBG] Link generation succeeded for endpoints ["Route: {controller=Home}/{action=Index}/{id?}"] with result /Home/Privacy
+2023-05-31 18:10:14.322 +08:00 [DBG] Found the endpoints ["Route: {controller=Home}/{action=Index}/{id?}"] for address (area=[],action=[Privacy],controller=[Home])
+2023-05-31 18:10:14.325 +08:00 [DBG] Successfully processed template {controller=Home}/{action=Index}/{id?} for Route: {controller=Home}/{action=Index}/{id?} resulting in /Home/Privacy and 
+2023-05-31 18:10:14.329 +08:00 [DBG] Link generation succeeded for endpoints ["Route: {controller=Home}/{action=Index}/{id?}"] with result /Home/Privacy
+2023-05-31 18:10:14.347 +08:00 [INF] Executed ViewResult - view Login executed in 86.5414ms.
+2023-05-31 18:10:14.350 +08:00 [INF] Executed action AuthenticationExample.CookieAuthenticatioin.Controllers.AccountController.Login (CookieAuthenticatioin) in 163.9211ms
+2023-05-31 18:10:14.354 +08:00 [INF] Executed endpoint 'AuthenticationExample.CookieAuthenticatioin.Controllers.AccountController.Login (CookieAuthenticatioin)'
+2023-05-31 18:10:14.356 +08:00 [INF] HTTP GET /Account/Login responded 200 in 212.1318 ms
+2023-05-31 18:10:14.362 +08:00 [DBG] Response markup is scheduled to include browser refresh script injection.
+2023-05-31 18:10:14.365 +08:00 [DBG] Response markup was updated to include browser refresh script injection.
+2023-05-31 18:10:14.368 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7064/Account/Login?returnUrl=/Home/Privacy - - - 200 - text/html;+charset=utf-8 225.7506ms
+2023-05-31 18:10:14.398 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7064/_framework/aspnetcore-browser-refresh.js - -
+2023-05-31 18:10:14.398 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7064/_vs/browserLink - -
+2023-05-31 18:10:14.405 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7064/_framework/aspnetcore-browser-refresh.js - - - 200 12012 application/javascript;+charset=utf-8 6.9173ms
+2023-05-31 18:10:14.518 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7064/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 119.6529ms
+2023-05-31 18:10:18.544 +08:00 [INF] Request starting HTTP/2 POST https://localhost:7064/Account/Login application/x-www-form-urlencoded 253
+2023-05-31 18:10:18.548 +08:00 [DBG] POST requests are not supported
+2023-05-31 18:10:18.550 +08:00 [DBG] 1 candidate(s) found for the request path '/Account/Login'
+2023-05-31 18:10:18.553 +08:00 [DBG] Endpoint 'AuthenticationExample.CookieAuthenticatioin.Controllers.AccountController.Login (CookieAuthenticatioin)' with route pattern '{controller=Home}/{action=Index}/{id?}' is valid for the request path '/Account/Login'
+2023-05-31 18:10:18.558 +08:00 [DBG] Request matched endpoint 'AuthenticationExample.CookieAuthenticatioin.Controllers.AccountController.Login (CookieAuthenticatioin)'
+2023-05-31 18:10:18.563 +08:00 [DBG] AuthenticationScheme: Cookies was not authenticated.
+2023-05-31 18:10:18.566 +08:00 [INF] Executing endpoint 'AuthenticationExample.CookieAuthenticatioin.Controllers.AccountController.Login (CookieAuthenticatioin)'
+2023-05-31 18:10:18.568 +08:00 [INF] Route matched with {action = "Login", controller = "Account"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(AuthenticationExample.CookieAuthenticatioin.Models.LoginViewModel) on controller AuthenticationExample.CookieAuthenticatioin.Controllers.AccountController (CookieAuthenticatioin).
+2023-05-31 18:10:18.573 +08:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2023-05-31 18:10:18.578 +08:00 [DBG] Execution plan of resource filters (in the following order): ["Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter"]
+2023-05-31 18:10:18.581 +08:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.Filters.ControllerActionFilter (Order: -2147483648)","Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)"]
+2023-05-31 18:10:18.585 +08:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2023-05-31 18:10:18.588 +08:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter"]
+2023-05-31 18:10:18.593 +08:00 [DBG] Executing controller factory for controller AuthenticationExample.CookieAuthenticatioin.Controllers.AccountController (CookieAuthenticatioin)
+2023-05-31 18:10:18.596 +08:00 [DBG] Executed controller factory for controller AuthenticationExample.CookieAuthenticatioin.Controllers.AccountController (CookieAuthenticatioin)
+2023-05-31 18:10:18.599 +08:00 [DBG] Connection id "0HMR1NSLTMOQL", Request id "0HMR1NSLTMOQL:00000017": started reading request body.
+2023-05-31 18:10:18.602 +08:00 [DBG] Connection id "0HMR1NSLTMOQL", Request id "0HMR1NSLTMOQL:00000017": done reading request body.
+2023-05-31 18:10:18.606 +08:00 [DBG] Attempting to bind parameter 'model' of type 'AuthenticationExample.CookieAuthenticatioin.Models.LoginViewModel' ...
+2023-05-31 18:10:18.610 +08:00 [DBG] Attempting to bind parameter 'model' of type 'AuthenticationExample.CookieAuthenticatioin.Models.LoginViewModel' using the name '' in request data ...
+2023-05-31 18:10:18.614 +08:00 [DBG] Attempting to bind property 'AuthenticationExample.CookieAuthenticatioin.Models.LoginViewModel.Username' of type 'System.String' using the name 'Username' in request data ...
+2023-05-31 18:10:18.618 +08:00 [DBG] Done attempting to bind property 'AuthenticationExample.CookieAuthenticatioin.Models.LoginViewModel.Username' of type 'System.String'.
+2023-05-31 18:10:18.621 +08:00 [DBG] Attempting to bind property 'AuthenticationExample.CookieAuthenticatioin.Models.LoginViewModel.Password' of type 'System.String' using the name 'Password' in request data ...
+2023-05-31 18:10:18.627 +08:00 [DBG] Done attempting to bind property 'AuthenticationExample.CookieAuthenticatioin.Models.LoginViewModel.Password' of type 'System.String'.
+2023-05-31 18:10:18.631 +08:00 [DBG] Attempting to bind property 'AuthenticationExample.CookieAuthenticatioin.Models.LoginViewModel.ReturnUrl' of type 'System.String' using the name 'ReturnUrl' in request data ...
+2023-05-31 18:10:18.634 +08:00 [DBG] Done attempting to bind property 'AuthenticationExample.CookieAuthenticatioin.Models.LoginViewModel.ReturnUrl' of type 'System.String'.
+2023-05-31 18:10:18.637 +08:00 [DBG] Done attempting to bind parameter 'model' of type 'AuthenticationExample.CookieAuthenticatioin.Models.LoginViewModel'.
+2023-05-31 18:10:18.643 +08:00 [DBG] Done attempting to bind parameter 'model' of type 'AuthenticationExample.CookieAuthenticatioin.Models.LoginViewModel'.
+2023-05-31 18:10:18.647 +08:00 [DBG] Attempting to validate the bound parameter 'model' of type 'AuthenticationExample.CookieAuthenticatioin.Models.LoginViewModel' ...
+2023-05-31 18:10:18.649 +08:00 [DBG] Done attempting to validate the bound parameter 'model' of type 'AuthenticationExample.CookieAuthenticatioin.Models.LoginViewModel'.
+2023-05-31 18:10:18.675 +08:00 [INF] Executing action method AuthenticationExample.CookieAuthenticatioin.Controllers.AccountController.Login (CookieAuthenticatioin) - Validation state: "Valid"
+2023-05-31 18:10:18.688 +08:00 [INF] AuthenticationScheme: Cookies signed in.
+2023-05-31 18:10:18.693 +08:00 [INF] Executed action method AuthenticationExample.CookieAuthenticatioin.Controllers.AccountController.Login (CookieAuthenticatioin), returned result Microsoft.AspNetCore.Mvc.RedirectResult in 14.7063ms.
+2023-05-31 18:10:18.696 +08:00 [INF] Executing RedirectResult, redirecting to /Home/Privacy.
+2023-05-31 18:10:18.698 +08:00 [INF] Executed action AuthenticationExample.CookieAuthenticatioin.Controllers.AccountController.Login (CookieAuthenticatioin) in 105.3232ms
+2023-05-31 18:10:18.701 +08:00 [INF] Executed endpoint 'AuthenticationExample.CookieAuthenticatioin.Controllers.AccountController.Login (CookieAuthenticatioin)'
+2023-05-31 18:10:18.705 +08:00 [INF] HTTP POST /Account/Login responded 302 in 156.3630 ms
+2023-05-31 18:10:18.710 +08:00 [INF] Request finished HTTP/2 POST https://localhost:7064/Account/Login application/x-www-form-urlencoded 253 - 302 0 - 166.4660ms
+2023-05-31 18:10:18.715 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7064/Home/Privacy - -
+2023-05-31 18:10:18.718 +08:00 [DBG] The request path /Home/Privacy does not match a supported file type
+2023-05-31 18:10:18.722 +08:00 [DBG] 1 candidate(s) found for the request path '/Home/Privacy'
+2023-05-31 18:10:18.727 +08:00 [DBG] Endpoint 'AuthenticationExample.CookieAuthenticatioin.Controllers.HomeController.Privacy (CookieAuthenticatioin)' with route pattern '{controller=Home}/{action=Index}/{id?}' is valid for the request path '/Home/Privacy'
+2023-05-31 18:10:18.735 +08:00 [DBG] Request matched endpoint 'AuthenticationExample.CookieAuthenticatioin.Controllers.HomeController.Privacy (CookieAuthenticatioin)'
+2023-05-31 18:10:18.743 +08:00 [DBG] AuthenticationScheme: Cookies was successfully authenticated.
+2023-05-31 18:10:18.747 +08:00 [DBG] Authorization was successful.
+2023-05-31 18:10:18.750 +08:00 [INF] Executing endpoint 'AuthenticationExample.CookieAuthenticatioin.Controllers.HomeController.Privacy (CookieAuthenticatioin)'
+2023-05-31 18:10:18.755 +08:00 [INF] Route matched with {action = "Privacy", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Privacy() on controller AuthenticationExample.CookieAuthenticatioin.Controllers.HomeController (CookieAuthenticatioin).
+2023-05-31 18:10:18.760 +08:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2023-05-31 18:10:18.763 +08:00 [DBG] Execution plan of resource filters (in the following order): ["Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter"]
+2023-05-31 18:10:18.767 +08:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.Filters.ControllerActionFilter (Order: -2147483648)","Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)"]
+2023-05-31 18:10:18.770 +08:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2023-05-31 18:10:18.775 +08:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter"]
+2023-05-31 18:10:18.778 +08:00 [DBG] Executing controller factory for controller AuthenticationExample.CookieAuthenticatioin.Controllers.HomeController (CookieAuthenticatioin)
+2023-05-31 18:10:18.782 +08:00 [DBG] Executed controller factory for controller AuthenticationExample.CookieAuthenticatioin.Controllers.HomeController (CookieAuthenticatioin)
+2023-05-31 18:10:18.806 +08:00 [INF] Executing action method AuthenticationExample.CookieAuthenticatioin.Controllers.HomeController.Privacy (CookieAuthenticatioin) - Validation state: "Valid"
+2023-05-31 18:10:18.833 +08:00 [INF] Executed action method AuthenticationExample.CookieAuthenticatioin.Controllers.HomeController.Privacy (CookieAuthenticatioin), returned result Microsoft.AspNetCore.Mvc.ViewResult in 23.9607ms.
+2023-05-31 18:10:18.837 +08:00 [DBG] View lookup cache miss for view 'Privacy' in controller 'Home'.
+2023-05-31 18:10:18.841 +08:00 [INF] Executing ViewResult, running view Privacy.
+2023-05-31 18:10:18.844 +08:00 [DBG] The view path '/Views/Home/Privacy.cshtml' was found in 7.4148ms.
+2023-05-31 18:10:18.849 +08:00 [DBG] View lookup cache hit for view '_Layout' in controller 'Home'.
+2023-05-31 18:10:18.852 +08:00 [DBG] Found the endpoints ["Route: {controller=Home}/{action=Index}/{id?}"] for address (area=[],action=[Index],controller=[Home])
+2023-05-31 18:10:18.855 +08:00 [DBG] Successfully processed template {controller=Home}/{action=Index}/{id?} for Route: {controller=Home}/{action=Index}/{id?} resulting in  and 
+2023-05-31 18:10:18.860 +08:00 [DBG] Link generation succeeded for endpoints ["Route: {controller=Home}/{action=Index}/{id?}"] with result /
+2023-05-31 18:10:18.864 +08:00 [DBG] Found the endpoints ["Route: {controller=Home}/{action=Index}/{id?}"] for address (area=[],action=[Index],controller=[Home])
+2023-05-31 18:10:18.867 +08:00 [DBG] Successfully processed template {controller=Home}/{action=Index}/{id?} for Route: {controller=Home}/{action=Index}/{id?} resulting in  and 
+2023-05-31 18:10:18.870 +08:00 [DBG] Link generation succeeded for endpoints ["Route: {controller=Home}/{action=Index}/{id?}"] with result /
+2023-05-31 18:10:18.874 +08:00 [DBG] Found the endpoints ["Route: {controller=Home}/{action=Index}/{id?}"] for address (area=[],action=[Privacy],controller=[Home])
+2023-05-31 18:10:18.878 +08:00 [DBG] Successfully processed template {controller=Home}/{action=Index}/{id?} for Route: {controller=Home}/{action=Index}/{id?} resulting in /Home/Privacy and 
+2023-05-31 18:10:18.881 +08:00 [DBG] Link generation succeeded for endpoints ["Route: {controller=Home}/{action=Index}/{id?}"] with result /Home/Privacy
+2023-05-31 18:10:18.884 +08:00 [DBG] Found the endpoints ["Route: {controller=Home}/{action=Index}/{id?}"] for address (area=[],action=[Privacy],controller=[Home])
+2023-05-31 18:10:18.887 +08:00 [DBG] Successfully processed template {controller=Home}/{action=Index}/{id?} for Route: {controller=Home}/{action=Index}/{id?} resulting in /Home/Privacy and 
+2023-05-31 18:10:18.894 +08:00 [DBG] Link generation succeeded for endpoints ["Route: {controller=Home}/{action=Index}/{id?}"] with result /Home/Privacy
+2023-05-31 18:10:18.901 +08:00 [INF] Executed ViewResult - view Privacy executed in 64.271ms.
+2023-05-31 18:10:18.904 +08:00 [INF] Executed action AuthenticationExample.CookieAuthenticatioin.Controllers.HomeController.Privacy (CookieAuthenticatioin) in 125.7101ms
+2023-05-31 18:10:18.908 +08:00 [INF] Executed endpoint 'AuthenticationExample.CookieAuthenticatioin.Controllers.HomeController.Privacy (CookieAuthenticatioin)'
+2023-05-31 18:10:18.910 +08:00 [INF] HTTP GET /Home/Privacy responded 200 in 191.8570 ms
+2023-05-31 18:10:18.915 +08:00 [DBG] Response markup is scheduled to include browser refresh script injection.
+2023-05-31 18:10:18.917 +08:00 [DBG] Response markup was updated to include browser refresh script injection.
+2023-05-31 18:10:18.920 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7064/Home/Privacy - - - 200 - text/html;+charset=utf-8 204.8690ms
+2023-05-31 18:10:18.956 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7064/_vs/browserLink - -
+2023-05-31 18:10:18.960 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7064/_framework/aspnetcore-browser-refresh.js - -
+2023-05-31 18:10:18.972 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7064/_framework/aspnetcore-browser-refresh.js - - - 200 12012 application/javascript;+charset=utf-8 11.6332ms
+2023-05-31 18:10:19.052 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7064/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 96.0479ms
+2023-05-31 18:11:51.207 +08:00 [DBG] Initializing Razor view compiler with compiled view: '/Views/Account/Denied.cshtml'.
+2023-05-31 18:11:51.218 +08:00 [DBG] Initializing Razor view compiler with compiled view: '/Views/Account/Login.cshtml'.
+2023-05-31 18:11:51.222 +08:00 [DBG] Initializing Razor view compiler with compiled view: '/Views/Home/Index.cshtml'.
+2023-05-31 18:11:51.224 +08:00 [DBG] Initializing Razor view compiler with compiled view: '/Views/Home/Privacy.cshtml'.
+2023-05-31 18:11:51.228 +08:00 [DBG] Initializing Razor view compiler with compiled view: '/Views/Shared/Error.cshtml'.
+2023-05-31 18:11:51.230 +08:00 [DBG] Initializing Razor view compiler with compiled view: '/Views/Shared/NotFound.cshtml'.
+2023-05-31 18:11:51.232 +08:00 [DBG] Initializing Razor view compiler with compiled view: '/Views/Shared/_ValidationScriptsPartial.cshtml'.
+2023-05-31 18:11:51.235 +08:00 [DBG] Initializing Razor view compiler with compiled view: '/Views/_ViewImports.cshtml'.
+2023-05-31 18:11:51.238 +08:00 [DBG] Initializing Razor view compiler with compiled view: '/Views/_ViewStart.cshtml'.
+2023-05-31 18:11:51.242 +08:00 [DBG] Initializing Razor view compiler with compiled view: '/Views/Shared/_Layout.cshtml'.
+2023-05-31 18:11:51.258 +08:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider"]
+2023-05-31 18:11:51.368 +08:00 [DBG] Hosting starting
+2023-05-31 18:11:51.414 +08:00 [INF] User profile is available. Using 'C:\Users\mumu\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-05-31 18:11:51.421 +08:00 [DBG] Reading data from file 'C:\Users\mumu\AppData\Local\ASP.NET\DataProtection-Keys\key-91ca31a8-49e0-482f-a401-da48a0dbda3e.xml'.
+2023-05-31 18:11:51.431 +08:00 [DBG] Reading data from file 'C:\Users\mumu\AppData\Local\ASP.NET\DataProtection-Keys\key-c12d8abc-ea2c-4170-833b-0a127cab01a4.xml'.
+2023-05-31 18:11:51.440 +08:00 [DBG] Reading data from file 'C:\Users\mumu\AppData\Local\ASP.NET\DataProtection-Keys\key-ef1f17f6-d4b0-4191-93cb-0d0cfc3860a5.xml'.
+2023-05-31 18:11:51.455 +08:00 [DBG] Found key {91ca31a8-49e0-482f-a401-da48a0dbda3e}.
+2023-05-31 18:11:51.464 +08:00 [DBG] Found key {c12d8abc-ea2c-4170-833b-0a127cab01a4}.
+2023-05-31 18:11:51.467 +08:00 [DBG] Found key {ef1f17f6-d4b0-4191-93cb-0d0cfc3860a5}.
+2023-05-31 18:11:51.477 +08:00 [DBG] Considering key {ef1f17f6-d4b0-4191-93cb-0d0cfc3860a5} with expiration date 2023-08-07 06:14:29Z as default key.
+2023-05-31 18:11:51.483 +08:00 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Version=6.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2023-05-31 18:11:51.488 +08:00 [DBG] Decrypting secret element using Windows DPAPI.
+2023-05-31 18:11:51.491 +08:00 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Version=6.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2023-05-31 18:11:51.498 +08:00 [DBG] Opening CNG algorithm 'AES' from provider 'null' with chaining mode CBC.
+2023-05-31 18:11:51.502 +08:00 [DBG] Opening CNG algorithm 'SHA256' from provider 'null' with HMAC.
+2023-05-31 18:11:51.507 +08:00 [DBG] Using key {ef1f17f6-d4b0-4191-93cb-0d0cfc3860a5} as the default key.
+2023-05-31 18:11:51.511 +08:00 [DBG] Key ring with default key {ef1f17f6-d4b0-4191-93cb-0d0cfc3860a5} was loaded during application startup.
+2023-05-31 18:11:51.650 +08:00 [INF] Now listening on: https://localhost:7064
+2023-05-31 18:11:51.653 +08:00 [INF] Now listening on: http://localhost:5125
+2023-05-31 18:11:51.656 +08:00 [DBG] Loaded hosting startup assembly CookieAuthenticatioin
+2023-05-31 18:11:51.658 +08:00 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2023-05-31 18:11:51.660 +08:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2023-05-31 18:11:51.664 +08:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-05-31 18:11:51.666 +08:00 [INF] Hosting environment: Development
+2023-05-31 18:11:51.668 +08:00 [INF] Content root path: D:\myStudies\AuthenticationExample\CookieAuthenticatioin
+2023-05-31 18:11:51.670 +08:00 [DBG] Hosting started
+2023-05-31 18:11:52.085 +08:00 [DBG] Connection id "0HMR1NTQ4O6CI" accepted.
+2023-05-31 18:11:52.089 +08:00 [DBG] Connection id "0HMR1NTQ4O6CI" started.
+2023-05-31 18:11:52.093 +08:00 [DBG] Connection id "0HMR1NTQ4O6CJ" received FIN.
+2023-05-31 18:11:52.094 +08:00 [DBG] Connection id "0HMR1NTQ4O6CI" received FIN.
+2023-05-31 18:11:52.122 +08:00 [DBG] Connection id "0HMR1NTQ4O6CJ" accepted.
+2023-05-31 18:11:52.127 +08:00 [DBG] Connection id "0HMR1NTQ4O6CJ" started.
+2023-05-31 18:11:52.129 +08:00 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException:  Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.ReceiveBlobAsync[TIOAdapter](CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](Boolean receiveFirst, Byte[] reAuthenticationData, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2023-05-31 18:11:52.132 +08:00 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException:  Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.ReceiveBlobAsync[TIOAdapter](CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](Boolean receiveFirst, Byte[] reAuthenticationData, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2023-05-31 18:11:52.157 +08:00 [DBG] Connection id "0HMR1NTQ4O6CI" stopped.
+2023-05-31 18:11:52.163 +08:00 [DBG] Connection id "0HMR1NTQ4O6CJ" stopped.
+2023-05-31 18:11:52.169 +08:00 [DBG] Connection id "0HMR1NTQ4O6CJ" sending FIN because: "The Socket transport's send loop completed gracefully."
+2023-05-31 18:11:52.169 +08:00 [DBG] Connection id "0HMR1NTQ4O6CI" sending FIN because: "The Socket transport's send loop completed gracefully."
+2023-05-31 18:11:52.430 +08:00 [DBG] Connection id "0HMR1NTQ4O6CK" accepted.
+2023-05-31 18:11:52.581 +08:00 [DBG] Connection id "0HMR1NTQ4O6CK" started.
+2023-05-31 18:11:52.633 +08:00 [DBG] Connection 0HMR1NTQ4O6CK established using the following protocol: "Tls13"
+2023-05-31 18:11:52.712 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7064/ - -
+2023-05-31 18:11:52.753 +08:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2023-05-31 18:11:52.757 +08:00 [DBG] The request path / does not match a supported file type
+2023-05-31 18:11:52.789 +08:00 [DBG] 1 candidate(s) found for the request path '/'
+2023-05-31 18:11:52.795 +08:00 [DBG] Endpoint 'AuthenticationExample.CookieAuthenticatioin.Controllers.HomeController.Index (CookieAuthenticatioin)' with route pattern '{controller=Home}/{action=Index}/{id?}' is valid for the request path '/'
+2023-05-31 18:11:52.798 +08:00 [DBG] Request matched endpoint 'AuthenticationExample.CookieAuthenticatioin.Controllers.HomeController.Index (CookieAuthenticatioin)'
+2023-05-31 18:11:52.823 +08:00 [DBG] AuthenticationScheme: Cookies was successfully authenticated.
+2023-05-31 18:11:52.829 +08:00 [INF] Executing endpoint 'AuthenticationExample.CookieAuthenticatioin.Controllers.HomeController.Index (CookieAuthenticatioin)'
+2023-05-31 18:11:52.865 +08:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller AuthenticationExample.CookieAuthenticatioin.Controllers.HomeController (CookieAuthenticatioin).
+2023-05-31 18:11:52.872 +08:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2023-05-31 18:11:52.876 +08:00 [DBG] Execution plan of resource filters (in the following order): ["Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter"]
+2023-05-31 18:11:52.879 +08:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.Filters.ControllerActionFilter (Order: -2147483648)","Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)"]
+2023-05-31 18:11:52.882 +08:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2023-05-31 18:11:52.889 +08:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter"]
+2023-05-31 18:11:52.894 +08:00 [DBG] Executing controller factory for controller AuthenticationExample.CookieAuthenticatioin.Controllers.HomeController (CookieAuthenticatioin)
+2023-05-31 18:11:52.901 +08:00 [DBG] Executed controller factory for controller AuthenticationExample.CookieAuthenticatioin.Controllers.HomeController (CookieAuthenticatioin)
+2023-05-31 18:11:53.008 +08:00 [INF] Executing action method AuthenticationExample.CookieAuthenticatioin.Controllers.HomeController.Index (CookieAuthenticatioin) - Validation state: "Valid"
+2023-05-31 18:11:53.016 +08:00 [INF] Executed action method AuthenticationExample.CookieAuthenticatioin.Controllers.HomeController.Index (CookieAuthenticatioin), returned result Microsoft.AspNetCore.Mvc.ViewResult in 1.2477ms.
+2023-05-31 18:11:53.032 +08:00 [DBG] View lookup cache miss for view 'Index' in controller 'Home'.
+2023-05-31 18:11:53.062 +08:00 [INF] Executing ViewResult, running view Index.
+2023-05-31 18:11:53.069 +08:00 [DBG] The view path '/Views/Home/Index.cshtml' was found in 33.7797ms.
+2023-05-31 18:11:53.096 +08:00 [DBG] View lookup cache miss for view '_Layout' in controller 'Home'.
+2023-05-31 18:11:53.204 +08:00 [DBG] Found the endpoints ["Route: {controller=Home}/{action=Index}/{id?}"] for address (area=[],action=[Index],controller=[Home])
+2023-05-31 18:11:53.215 +08:00 [DBG] Successfully processed template {controller=Home}/{action=Index}/{id?} for Route: {controller=Home}/{action=Index}/{id?} resulting in  and 
+2023-05-31 18:11:53.219 +08:00 [DBG] Link generation succeeded for endpoints ["Route: {controller=Home}/{action=Index}/{id?}"] with result /
+2023-05-31 18:11:53.225 +08:00 [DBG] Found the endpoints ["Route: {controller=Home}/{action=Index}/{id?}"] for address (area=[],action=[Index],controller=[Home])
+2023-05-31 18:11:53.228 +08:00 [DBG] Successfully processed template {controller=Home}/{action=Index}/{id?} for Route: {controller=Home}/{action=Index}/{id?} resulting in  and 
+2023-05-31 18:11:53.231 +08:00 [DBG] Link generation succeeded for endpoints ["Route: {controller=Home}/{action=Index}/{id?}"] with result /
+2023-05-31 18:11:53.236 +08:00 [DBG] Found the endpoints ["Route: {controller=Home}/{action=Index}/{id?}"] for address (area=[],action=[Privacy],controller=[Home])
+2023-05-31 18:11:53.241 +08:00 [DBG] Successfully processed template {controller=Home}/{action=Index}/{id?} for Route: {controller=Home}/{action=Index}/{id?} resulting in /Home/Privacy and 
+2023-05-31 18:11:53.244 +08:00 [DBG] Link generation succeeded for endpoints ["Route: {controller=Home}/{action=Index}/{id?}"] with result /Home/Privacy
+2023-05-31 18:11:53.248 +08:00 [DBG] Found the endpoints ["Route: {controller=Home}/{action=Index}/{id?}"] for address (area=[],action=[Logout],controller=[Home])
+2023-05-31 18:11:53.252 +08:00 [DBG] Successfully processed template {controller=Home}/{action=Index}/{id?} for Route: {controller=Home}/{action=Index}/{id?} resulting in /Home/Logout and 
+2023-05-31 18:11:53.257 +08:00 [DBG] Link generation succeeded for endpoints ["Route: {controller=Home}/{action=Index}/{id?}"] with result /Home/Logout
+2023-05-31 18:11:53.261 +08:00 [DBG] Found the endpoints ["Route: {controller=Home}/{action=Index}/{id?}"] for address (area=[],action=[Privacy],controller=[Home])
+2023-05-31 18:11:53.264 +08:00 [DBG] Successfully processed template {controller=Home}/{action=Index}/{id?} for Route: {controller=Home}/{action=Index}/{id?} resulting in /Home/Privacy and 
+2023-05-31 18:11:53.270 +08:00 [DBG] Link generation succeeded for endpoints ["Route: {controller=Home}/{action=Index}/{id?}"] with result /Home/Privacy
+2023-05-31 18:11:53.366 +08:00 [INF] Executed ViewResult - view Index executed in 336.1154ms.
+2023-05-31 18:11:53.376 +08:00 [INF] Executed action AuthenticationExample.CookieAuthenticatioin.Controllers.HomeController.Index (CookieAuthenticatioin) in 483.3318ms
+2023-05-31 18:11:53.379 +08:00 [INF] Executed endpoint 'AuthenticationExample.CookieAuthenticatioin.Controllers.HomeController.Index (CookieAuthenticatioin)'
+2023-05-31 18:11:53.385 +08:00 [INF] HTTP GET / responded 200 in 627.1332 ms
+2023-05-31 18:11:53.404 +08:00 [DBG] Response markup is scheduled to include browser refresh script injection.
+2023-05-31 18:11:53.421 +08:00 [DBG] Response markup was updated to include browser refresh script injection.
+2023-05-31 18:11:53.429 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7064/ - - - 200 - text/html;+charset=utf-8 721.3528ms
+2023-05-31 18:11:53.466 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7064/_framework/aspnetcore-browser-refresh.js - -
+2023-05-31 18:11:53.466 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7064/lib/bootstrap/dist/css/bootstrap.min.css - -
+2023-05-31 18:11:53.467 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7064/css/site.css?v=pAGv4ietcJNk_EwsQZ5BN9-K4MuNYS2a9wl4Jw-q9D0 - -
+2023-05-31 18:11:53.467 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7064/CookieAuthenticatioin.styles.css?v=toSvf7UDbX_db_YHMoUHlBnZ8NL53h1ASOcU5LoFccE - -
+2023-05-31 18:11:53.482 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7064/lib/jquery/dist/jquery.min.js - -
+2023-05-31 18:11:53.496 +08:00 [INF] The file /lib/bootstrap/dist/css/bootstrap.min.css was not modified
+2023-05-31 18:11:53.496 +08:00 [INF] The file /CookieAuthenticatioin.styles.css was not modified
+2023-05-31 18:11:53.496 +08:00 [INF] The file /css/site.css was not modified
+2023-05-31 18:11:53.496 +08:00 [INF] The file /lib/jquery/dist/jquery.min.js was not modified
+2023-05-31 18:11:53.503 +08:00 [DBG] Handled. Status code: 304 File: /lib/jquery/dist/jquery.min.js
+2023-05-31 18:11:53.503 +08:00 [DBG] Handled. Status code: 304 File: /CookieAuthenticatioin.styles.css
+2023-05-31 18:11:53.504 +08:00 [DBG] Handled. Status code: 304 File: /css/site.css
+2023-05-31 18:11:53.505 +08:00 [DBG] Handled. Status code: 304 File: /lib/bootstrap/dist/css/bootstrap.min.css
+2023-05-31 18:11:53.511 +08:00 [INF] HTTP GET /lib/jquery/dist/jquery.min.js responded 304 in 24.3660 ms
+2023-05-31 18:11:53.513 +08:00 [INF] HTTP GET /CookieAuthenticatioin.styles.css responded 304 in 35.9497 ms
+2023-05-31 18:11:53.514 +08:00 [INF] HTTP GET /css/site.css responded 304 in 38.9671 ms
+2023-05-31 18:11:53.520 +08:00 [INF] HTTP GET /lib/bootstrap/dist/css/bootstrap.min.css responded 304 in 45.1328 ms
+2023-05-31 18:11:53.530 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7064/lib/jquery/dist/jquery.min.js - - - 304 - text/javascript 47.8837ms
+2023-05-31 18:11:53.532 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7064/CookieAuthenticatioin.styles.css?v=toSvf7UDbX_db_YHMoUHlBnZ8NL53h1ASOcU5LoFccE - - - 304 - text/css 64.9681ms
+2023-05-31 18:11:53.534 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7064/css/site.css?v=pAGv4ietcJNk_EwsQZ5BN9-K4MuNYS2a9wl4Jw-q9D0 - - - 304 - text/css 66.8487ms
+2023-05-31 18:11:53.538 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7064/lib/bootstrap/dist/css/bootstrap.min.css - - - 304 - text/css 71.1927ms
+2023-05-31 18:11:53.542 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7064/lib/bootstrap/dist/js/bootstrap.bundle.min.js - -
+2023-05-31 18:11:53.542 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7064/js/site.js?v=4q1jwFhaPaZgr8WAUSrux6hAuh0XDg9kPS3xIVq36I0 - -
+2023-05-31 18:11:53.547 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7064/_framework/aspnetcore-browser-refresh.js - - - 200 12012 application/javascript;+charset=utf-8 80.3892ms
+2023-05-31 18:11:53.561 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7064/_vs/browserLink - -
+2023-05-31 18:11:53.563 +08:00 [INF] The file /lib/bootstrap/dist/js/bootstrap.bundle.min.js was not modified
+2023-05-31 18:11:53.564 +08:00 [INF] The file /js/site.js was not modified
+2023-05-31 18:11:53.577 +08:00 [DBG] Handled. Status code: 304 File: /js/site.js
+2023-05-31 18:11:53.572 +08:00 [DBG] Handled. Status code: 304 File: /lib/bootstrap/dist/js/bootstrap.bundle.min.js
+2023-05-31 18:11:53.592 +08:00 [INF] HTTP GET /js/site.js responded 304 in 28.3316 ms
+2023-05-31 18:11:53.595 +08:00 [INF] HTTP GET /lib/bootstrap/dist/js/bootstrap.bundle.min.js responded 304 in 32.4700 ms
+2023-05-31 18:11:53.614 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7064/js/site.js?v=4q1jwFhaPaZgr8WAUSrux6hAuh0XDg9kPS3xIVq36I0 - - - 304 - text/javascript 71.2774ms
+2023-05-31 18:11:53.619 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7064/lib/bootstrap/dist/js/bootstrap.bundle.min.js - - - 304 - text/javascript 77.6860ms
+2023-05-31 18:11:53.685 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7064/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 123.6884ms
+2023-05-31 18:11:56.797 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7064/Home/Logout - -
+2023-05-31 18:11:56.802 +08:00 [DBG] The request path /Home/Logout does not match a supported file type
+2023-05-31 18:11:56.810 +08:00 [DBG] 1 candidate(s) found for the request path '/Home/Logout'
+2023-05-31 18:11:56.816 +08:00 [DBG] Endpoint 'AuthenticationExample.CookieAuthenticatioin.Controllers.HomeController.Logout (CookieAuthenticatioin)' with route pattern '{controller=Home}/{action=Index}/{id?}' is valid for the request path '/Home/Logout'
+2023-05-31 18:11:56.828 +08:00 [DBG] Request matched endpoint 'AuthenticationExample.CookieAuthenticatioin.Controllers.HomeController.Logout (CookieAuthenticatioin)'
+2023-05-31 18:11:56.835 +08:00 [DBG] AuthenticationScheme: Cookies was successfully authenticated.
+2023-05-31 18:11:56.842 +08:00 [INF] Executing endpoint 'AuthenticationExample.CookieAuthenticatioin.Controllers.HomeController.Logout (CookieAuthenticatioin)'
+2023-05-31 18:11:56.851 +08:00 [INF] Route matched with {action = "Logout", controller = "Home"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Logout() on controller AuthenticationExample.CookieAuthenticatioin.Controllers.HomeController (CookieAuthenticatioin).
+2023-05-31 18:11:56.859 +08:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2023-05-31 18:11:56.862 +08:00 [DBG] Execution plan of resource filters (in the following order): ["Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter"]
+2023-05-31 18:11:56.867 +08:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.Filters.ControllerActionFilter (Order: -2147483648)","Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)"]
+2023-05-31 18:11:56.871 +08:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2023-05-31 18:11:56.875 +08:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter"]
+2023-05-31 18:11:56.878 +08:00 [DBG] Executing controller factory for controller AuthenticationExample.CookieAuthenticatioin.Controllers.HomeController (CookieAuthenticatioin)
+2023-05-31 18:11:56.882 +08:00 [DBG] Executed controller factory for controller AuthenticationExample.CookieAuthenticatioin.Controllers.HomeController (CookieAuthenticatioin)
+2023-05-31 18:11:56.914 +08:00 [INF] Executing action method AuthenticationExample.CookieAuthenticatioin.Controllers.HomeController.Logout (CookieAuthenticatioin) - Validation state: "Valid"
+2023-05-31 18:11:56.924 +08:00 [INF] AuthenticationScheme: Cookies signed out.
+2023-05-31 18:11:56.928 +08:00 [INF] Executed action method AuthenticationExample.CookieAuthenticatioin.Controllers.HomeController.Logout (CookieAuthenticatioin), returned result Microsoft.AspNetCore.Mvc.RedirectToActionResult in 11.3424ms.
+2023-05-31 18:11:56.934 +08:00 [DBG] Found the endpoints ["Route: {controller=Home}/{action=Index}/{id?}"] for address (action=[Privacy],controller=[Home])
+2023-05-31 18:11:56.938 +08:00 [DBG] Successfully processed template {controller=Home}/{action=Index}/{id?} for Route: {controller=Home}/{action=Index}/{id?} resulting in /Home/Privacy and 
+2023-05-31 18:11:56.942 +08:00 [DBG] Link generation succeeded for endpoints ["Route: {controller=Home}/{action=Index}/{id?}"] with result /Home/Privacy
+2023-05-31 18:11:56.946 +08:00 [INF] Executing RedirectResult, redirecting to /Home/Privacy.
+2023-05-31 18:11:56.949 +08:00 [INF] Executed action AuthenticationExample.CookieAuthenticatioin.Controllers.HomeController.Logout (CookieAuthenticatioin) in 71.3093ms
+2023-05-31 18:11:56.952 +08:00 [INF] Executed endpoint 'AuthenticationExample.CookieAuthenticatioin.Controllers.HomeController.Logout (CookieAuthenticatioin)'
+2023-05-31 18:11:56.955 +08:00 [INF] HTTP GET /Home/Logout responded 302 in 152.5956 ms
+2023-05-31 18:11:56.960 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7064/Home/Logout - - - 302 0 - 162.7891ms
+2023-05-31 18:11:56.965 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7064/Home/Privacy - -
+2023-05-31 18:11:56.967 +08:00 [DBG] The request path /Home/Privacy does not match a supported file type
+2023-05-31 18:11:56.974 +08:00 [DBG] 1 candidate(s) found for the request path '/Home/Privacy'
+2023-05-31 18:11:56.977 +08:00 [DBG] Endpoint 'AuthenticationExample.CookieAuthenticatioin.Controllers.HomeController.Privacy (CookieAuthenticatioin)' with route pattern '{controller=Home}/{action=Index}/{id?}' is valid for the request path '/Home/Privacy'
+2023-05-31 18:11:56.980 +08:00 [DBG] Request matched endpoint 'AuthenticationExample.CookieAuthenticatioin.Controllers.HomeController.Privacy (CookieAuthenticatioin)'
+2023-05-31 18:11:56.984 +08:00 [DBG] AuthenticationScheme: Cookies was not authenticated.
+2023-05-31 18:11:56.993 +08:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2023-05-31 18:11:56.999 +08:00 [INF] AuthenticationScheme: Cookies was challenged.
+2023-05-31 18:11:57.001 +08:00 [INF] HTTP GET /Home/Privacy responded 302 in 33.6846 ms
+2023-05-31 18:11:57.008 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7064/Home/Privacy - - - 302 0 - 43.6162ms
+2023-05-31 18:11:57.014 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7064/Account/Login?ReturnUrl=%2FHome%2FPrivacy - -
+2023-05-31 18:11:57.018 +08:00 [DBG] The request path /Account/Login does not match a supported file type
+2023-05-31 18:11:57.025 +08:00 [DBG] 1 candidate(s) found for the request path '/Account/Login'
+2023-05-31 18:11:57.029 +08:00 [DBG] Endpoint 'AuthenticationExample.CookieAuthenticatioin.Controllers.AccountController.Login (CookieAuthenticatioin)' with route pattern '{controller=Home}/{action=Index}/{id?}' is valid for the request path '/Account/Login'
+2023-05-31 18:11:57.034 +08:00 [DBG] Request matched endpoint 'AuthenticationExample.CookieAuthenticatioin.Controllers.AccountController.Login (CookieAuthenticatioin)'
+2023-05-31 18:11:57.046 +08:00 [DBG] AuthenticationScheme: Cookies was not authenticated.
+2023-05-31 18:11:57.048 +08:00 [INF] Executing endpoint 'AuthenticationExample.CookieAuthenticatioin.Controllers.AccountController.Login (CookieAuthenticatioin)'
+2023-05-31 18:11:57.063 +08:00 [INF] Route matched with {action = "Login", controller = "Account"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Login(System.String) on controller AuthenticationExample.CookieAuthenticatioin.Controllers.AccountController (CookieAuthenticatioin).
+2023-05-31 18:11:57.069 +08:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2023-05-31 18:11:57.076 +08:00 [DBG] Execution plan of resource filters (in the following order): ["Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter"]
+2023-05-31 18:11:57.079 +08:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.Filters.ControllerActionFilter (Order: -2147483648)","Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)"]
+2023-05-31 18:11:57.084 +08:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2023-05-31 18:11:57.090 +08:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter"]
+2023-05-31 18:11:57.093 +08:00 [DBG] Executing controller factory for controller AuthenticationExample.CookieAuthenticatioin.Controllers.AccountController (CookieAuthenticatioin)
+2023-05-31 18:11:57.097 +08:00 [DBG] Executed controller factory for controller AuthenticationExample.CookieAuthenticatioin.Controllers.AccountController (CookieAuthenticatioin)
+2023-05-31 18:11:57.113 +08:00 [DBG] Attempting to bind parameter 'returnUrl' of type 'System.String' ...
+2023-05-31 18:11:57.119 +08:00 [DBG] Attempting to bind parameter 'returnUrl' of type 'System.String' using the name 'returnUrl' in request data ...
+2023-05-31 18:11:57.129 +08:00 [DBG] Done attempting to bind parameter 'returnUrl' of type 'System.String'.
+2023-05-31 18:11:57.132 +08:00 [DBG] Done attempting to bind parameter 'returnUrl' of type 'System.String'.
+2023-05-31 18:11:57.135 +08:00 [DBG] Attempting to validate the bound parameter 'returnUrl' of type 'System.String' ...
+2023-05-31 18:11:57.141 +08:00 [DBG] Done attempting to validate the bound parameter 'returnUrl' of type 'System.String'.
+2023-05-31 18:11:57.168 +08:00 [INF] Executing action method AuthenticationExample.CookieAuthenticatioin.Controllers.AccountController.Login (CookieAuthenticatioin) - Validation state: "Valid"
+2023-05-31 18:11:57.172 +08:00 [INF] Executed action method AuthenticationExample.CookieAuthenticatioin.Controllers.AccountController.Login (CookieAuthenticatioin), returned result Microsoft.AspNetCore.Mvc.ViewResult in 0.5809ms.
+2023-05-31 18:11:57.177 +08:00 [DBG] View lookup cache miss for view 'Login' in controller 'Account'.
+2023-05-31 18:11:57.181 +08:00 [INF] Executing ViewResult, running view Login.
+2023-05-31 18:11:57.184 +08:00 [DBG] The view path '/Views/Account/Login.cshtml' was found in 6.5307ms.
+2023-05-31 18:11:57.194 +08:00 [DBG] Found the endpoints ["Route: {controller=Home}/{action=Index}/{id?}"] for address (action=[Login],controller=[Account])
+2023-05-31 18:11:57.198 +08:00 [DBG] Successfully processed template {controller=Home}/{action=Index}/{id?} for Route: {controller=Home}/{action=Index}/{id?} resulting in /Account/Login and 
+2023-05-31 18:11:57.201 +08:00 [DBG] Link generation succeeded for endpoints ["Route: {controller=Home}/{action=Index}/{id?}"] with result /Account/Login
+2023-05-31 18:11:57.209 +08:00 [DBG] An antiforgery cookie token was reused.
+2023-05-31 18:11:57.253 +08:00 [DBG] Found the endpoints ["Route: {controller=Home}/{action=Index}/{id?}"] for address (area=[],action=[Index],controller=[Home])
+2023-05-31 18:11:57.260 +08:00 [DBG] Successfully processed template {controller=Home}/{action=Index}/{id?} for Route: {controller=Home}/{action=Index}/{id?} resulting in  and 
+2023-05-31 18:11:57.264 +08:00 [DBG] Link generation succeeded for endpoints ["Route: {controller=Home}/{action=Index}/{id?}"] with result /
+2023-05-31 18:11:57.267 +08:00 [DBG] Found the endpoints ["Route: {controller=Home}/{action=Index}/{id?}"] for address (area=[],action=[Index],controller=[Home])
+2023-05-31 18:11:57.272 +08:00 [DBG] Successfully processed template {controller=Home}/{action=Index}/{id?} for Route: {controller=Home}/{action=Index}/{id?} resulting in  and 
+2023-05-31 18:11:57.276 +08:00 [DBG] Link generation succeeded for endpoints ["Route: {controller=Home}/{action=Index}/{id?}"] with result /
+2023-05-31 18:11:57.279 +08:00 [DBG] Found the endpoints ["Route: {controller=Home}/{action=Index}/{id?}"] for address (area=[],action=[Privacy],controller=[Home])
+2023-05-31 18:11:57.282 +08:00 [DBG] Successfully processed template {controller=Home}/{action=Index}/{id?} for Route: {controller=Home}/{action=Index}/{id?} resulting in /Home/Privacy and 
+2023-05-31 18:11:57.286 +08:00 [DBG] Link generation succeeded for endpoints ["Route: {controller=Home}/{action=Index}/{id?}"] with result /Home/Privacy
+2023-05-31 18:11:57.291 +08:00 [DBG] Found the endpoints ["Route: {controller=Home}/{action=Index}/{id?}"] for address (area=[],action=[Logout],controller=[Home])
+2023-05-31 18:11:57.294 +08:00 [DBG] Successfully processed template {controller=Home}/{action=Index}/{id?} for Route: {controller=Home}/{action=Index}/{id?} resulting in /Home/Logout and 
+2023-05-31 18:11:57.298 +08:00 [DBG] Link generation succeeded for endpoints ["Route: {controller=Home}/{action=Index}/{id?}"] with result /Home/Logout
+2023-05-31 18:11:57.302 +08:00 [DBG] Found the endpoints ["Route: {controller=Home}/{action=Index}/{id?}"] for address (area=[],action=[Privacy],controller=[Home])
+2023-05-31 18:11:57.306 +08:00 [DBG] Successfully processed template {controller=Home}/{action=Index}/{id?} for Route: {controller=Home}/{action=Index}/{id?} resulting in /Home/Privacy and 
+2023-05-31 18:11:57.309 +08:00 [DBG] Link generation succeeded for endpoints ["Route: {controller=Home}/{action=Index}/{id?}"] with result /Home/Privacy
+2023-05-31 18:11:57.327 +08:00 [INF] Executed ViewResult - view Login executed in 150.1357ms.
+2023-05-31 18:11:57.338 +08:00 [INF] Executed action AuthenticationExample.CookieAuthenticatioin.Controllers.AccountController.Login (CookieAuthenticatioin) in 243.6317ms
+2023-05-31 18:11:57.341 +08:00 [INF] Executed endpoint 'AuthenticationExample.CookieAuthenticatioin.Controllers.AccountController.Login (CookieAuthenticatioin)'
+2023-05-31 18:11:57.344 +08:00 [INF] HTTP GET /Account/Login responded 200 in 326.2172 ms
+2023-05-31 18:11:57.349 +08:00 [DBG] Response markup is scheduled to include browser refresh script injection.
+2023-05-31 18:11:57.358 +08:00 [DBG] Response markup was updated to include browser refresh script injection.
+2023-05-31 18:11:57.376 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7064/Account/Login?ReturnUrl=%2FHome%2FPrivacy - - - 200 - text/html;+charset=utf-8 353.6930ms
+2023-05-31 18:11:57.382 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7064/_framework/aspnetcore-browser-refresh.js - -
+2023-05-31 18:11:57.382 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7064/_vs/browserLink - -
+2023-05-31 18:11:57.395 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7064/_framework/aspnetcore-browser-refresh.js - - - 200 12012 application/javascript;+charset=utf-8 12.2571ms
+2023-05-31 18:11:57.487 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7064/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 104.8335ms
+2023-05-31 18:12:01.386 +08:00 [INF] Request starting HTTP/2 POST https://localhost:7064/Account/Login application/x-www-form-urlencoded 253
+2023-05-31 18:12:01.390 +08:00 [DBG] POST requests are not supported
+2023-05-31 18:12:01.396 +08:00 [DBG] 1 candidate(s) found for the request path '/Account/Login'
+2023-05-31 18:12:01.400 +08:00 [DBG] Endpoint 'AuthenticationExample.CookieAuthenticatioin.Controllers.AccountController.Login (CookieAuthenticatioin)' with route pattern '{controller=Home}/{action=Index}/{id?}' is valid for the request path '/Account/Login'
+2023-05-31 18:12:01.405 +08:00 [DBG] Request matched endpoint 'AuthenticationExample.CookieAuthenticatioin.Controllers.AccountController.Login (CookieAuthenticatioin)'
+2023-05-31 18:12:01.407 +08:00 [DBG] AuthenticationScheme: Cookies was not authenticated.
+2023-05-31 18:12:01.410 +08:00 [INF] Executing endpoint 'AuthenticationExample.CookieAuthenticatioin.Controllers.AccountController.Login (CookieAuthenticatioin)'
+2023-05-31 18:12:01.421 +08:00 [INF] Route matched with {action = "Login", controller = "Account"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(AuthenticationExample.CookieAuthenticatioin.Models.LoginViewModel) on controller AuthenticationExample.CookieAuthenticatioin.Controllers.AccountController (CookieAuthenticatioin).
+2023-05-31 18:12:01.429 +08:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2023-05-31 18:12:01.433 +08:00 [DBG] Execution plan of resource filters (in the following order): ["Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter"]
+2023-05-31 18:12:01.437 +08:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.Filters.ControllerActionFilter (Order: -2147483648)","Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)"]
+2023-05-31 18:12:01.442 +08:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2023-05-31 18:12:01.445 +08:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter"]
+2023-05-31 18:12:01.450 +08:00 [DBG] Executing controller factory for controller AuthenticationExample.CookieAuthenticatioin.Controllers.AccountController (CookieAuthenticatioin)
+2023-05-31 18:12:01.453 +08:00 [DBG] Executed controller factory for controller AuthenticationExample.CookieAuthenticatioin.Controllers.AccountController (CookieAuthenticatioin)
+2023-05-31 18:12:01.460 +08:00 [DBG] Connection id "0HMR1NTQ4O6CK", Request id "0HMR1NTQ4O6CK:0000001D": started reading request body.
+2023-05-31 18:12:01.464 +08:00 [DBG] Connection id "0HMR1NTQ4O6CK", Request id "0HMR1NTQ4O6CK:0000001D": done reading request body.
+2023-05-31 18:12:01.471 +08:00 [DBG] Attempting to bind parameter 'model' of type 'AuthenticationExample.CookieAuthenticatioin.Models.LoginViewModel' ...
+2023-05-31 18:12:01.475 +08:00 [DBG] Attempting to bind parameter 'model' of type 'AuthenticationExample.CookieAuthenticatioin.Models.LoginViewModel' using the name '' in request data ...
+2023-05-31 18:12:01.484 +08:00 [DBG] Attempting to bind property 'AuthenticationExample.CookieAuthenticatioin.Models.LoginViewModel.Username' of type 'System.String' using the name 'Username' in request data ...
+2023-05-31 18:12:01.489 +08:00 [DBG] Done attempting to bind property 'AuthenticationExample.CookieAuthenticatioin.Models.LoginViewModel.Username' of type 'System.String'.
+2023-05-31 18:12:01.495 +08:00 [DBG] Attempting to bind property 'AuthenticationExample.CookieAuthenticatioin.Models.LoginViewModel.Password' of type 'System.String' using the name 'Password' in request data ...
+2023-05-31 18:12:01.499 +08:00 [DBG] Done attempting to bind property 'AuthenticationExample.CookieAuthenticatioin.Models.LoginViewModel.Password' of type 'System.String'.
+2023-05-31 18:12:01.502 +08:00 [DBG] Attempting to bind property 'AuthenticationExample.CookieAuthenticatioin.Models.LoginViewModel.ReturnUrl' of type 'System.String' using the name 'ReturnUrl' in request data ...
+2023-05-31 18:12:01.505 +08:00 [DBG] Done attempting to bind property 'AuthenticationExample.CookieAuthenticatioin.Models.LoginViewModel.ReturnUrl' of type 'System.String'.
+2023-05-31 18:12:01.512 +08:00 [DBG] Done attempting to bind parameter 'model' of type 'AuthenticationExample.CookieAuthenticatioin.Models.LoginViewModel'.
+2023-05-31 18:12:01.516 +08:00 [DBG] Done attempting to bind parameter 'model' of type 'AuthenticationExample.CookieAuthenticatioin.Models.LoginViewModel'.
+2023-05-31 18:12:01.518 +08:00 [DBG] Attempting to validate the bound parameter 'model' of type 'AuthenticationExample.CookieAuthenticatioin.Models.LoginViewModel' ...
+2023-05-31 18:12:01.527 +08:00 [DBG] Done attempting to validate the bound parameter 'model' of type 'AuthenticationExample.CookieAuthenticatioin.Models.LoginViewModel'.
+2023-05-31 18:12:01.552 +08:00 [INF] Executing action method AuthenticationExample.CookieAuthenticatioin.Controllers.AccountController.Login (CookieAuthenticatioin) - Validation state: "Valid"
+2023-05-31 18:12:01.563 +08:00 [INF] AuthenticationScheme: Cookies signed in.
+2023-05-31 18:12:01.566 +08:00 [INF] Executed action method AuthenticationExample.CookieAuthenticatioin.Controllers.AccountController.Login (CookieAuthenticatioin), returned result Microsoft.AspNetCore.Mvc.RedirectResult in 11.7896ms.
+2023-05-31 18:12:01.570 +08:00 [INF] Executing RedirectResult, redirecting to /Home/Privacy.
+2023-05-31 18:12:01.575 +08:00 [INF] Executed action AuthenticationExample.CookieAuthenticatioin.Controllers.AccountController.Login (CookieAuthenticatioin) in 125.2108ms
+2023-05-31 18:12:01.579 +08:00 [INF] Executed endpoint 'AuthenticationExample.CookieAuthenticatioin.Controllers.AccountController.Login (CookieAuthenticatioin)'
+2023-05-31 18:12:01.582 +08:00 [INF] HTTP POST /Account/Login responded 302 in 191.9891 ms
+2023-05-31 18:12:01.589 +08:00 [INF] Request finished HTTP/2 POST https://localhost:7064/Account/Login application/x-www-form-urlencoded 253 - 302 0 - 202.3324ms
+2023-05-31 18:12:01.595 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7064/Home/Privacy - -
+2023-05-31 18:12:01.599 +08:00 [DBG] The request path /Home/Privacy does not match a supported file type
+2023-05-31 18:12:01.603 +08:00 [DBG] 1 candidate(s) found for the request path '/Home/Privacy'
+2023-05-31 18:12:01.609 +08:00 [DBG] Endpoint 'AuthenticationExample.CookieAuthenticatioin.Controllers.HomeController.Privacy (CookieAuthenticatioin)' with route pattern '{controller=Home}/{action=Index}/{id?}' is valid for the request path '/Home/Privacy'
+2023-05-31 18:12:01.614 +08:00 [DBG] Request matched endpoint 'AuthenticationExample.CookieAuthenticatioin.Controllers.HomeController.Privacy (CookieAuthenticatioin)'
+2023-05-31 18:12:01.616 +08:00 [DBG] AuthenticationScheme: Cookies was successfully authenticated.
+2023-05-31 18:12:01.620 +08:00 [DBG] Authorization was successful.
+2023-05-31 18:12:01.622 +08:00 [INF] Executing endpoint 'AuthenticationExample.CookieAuthenticatioin.Controllers.HomeController.Privacy (CookieAuthenticatioin)'
+2023-05-31 18:12:01.627 +08:00 [INF] Route matched with {action = "Privacy", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Privacy() on controller AuthenticationExample.CookieAuthenticatioin.Controllers.HomeController (CookieAuthenticatioin).
+2023-05-31 18:12:01.630 +08:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2023-05-31 18:12:01.634 +08:00 [DBG] Execution plan of resource filters (in the following order): ["Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter"]
+2023-05-31 18:12:01.637 +08:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.Filters.ControllerActionFilter (Order: -2147483648)","Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)"]
+2023-05-31 18:12:01.642 +08:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2023-05-31 18:12:01.646 +08:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter"]
+2023-05-31 18:12:01.650 +08:00 [DBG] Executing controller factory for controller AuthenticationExample.CookieAuthenticatioin.Controllers.HomeController (CookieAuthenticatioin)
+2023-05-31 18:12:01.654 +08:00 [DBG] Executed controller factory for controller AuthenticationExample.CookieAuthenticatioin.Controllers.HomeController (CookieAuthenticatioin)
+2023-05-31 18:12:01.677 +08:00 [INF] Executing action method AuthenticationExample.CookieAuthenticatioin.Controllers.HomeController.Privacy (CookieAuthenticatioin) - Validation state: "Valid"
+2023-05-31 18:12:01.703 +08:00 [INF] Executed action method AuthenticationExample.CookieAuthenticatioin.Controllers.HomeController.Privacy (CookieAuthenticatioin), returned result Microsoft.AspNetCore.Mvc.ViewResult in 22.1139ms.
+2023-05-31 18:12:01.706 +08:00 [DBG] View lookup cache miss for view 'Privacy' in controller 'Home'.
+2023-05-31 18:12:01.711 +08:00 [INF] Executing ViewResult, running view Privacy.
+2023-05-31 18:12:01.713 +08:00 [DBG] The view path '/Views/Home/Privacy.cshtml' was found in 7.0678ms.
+2023-05-31 18:12:01.717 +08:00 [DBG] View lookup cache hit for view '_Layout' in controller 'Home'.
+2023-05-31 18:12:01.720 +08:00 [DBG] Found the endpoints ["Route: {controller=Home}/{action=Index}/{id?}"] for address (area=[],action=[Index],controller=[Home])
+2023-05-31 18:12:01.725 +08:00 [DBG] Successfully processed template {controller=Home}/{action=Index}/{id?} for Route: {controller=Home}/{action=Index}/{id?} resulting in  and 
+2023-05-31 18:12:01.729 +08:00 [DBG] Link generation succeeded for endpoints ["Route: {controller=Home}/{action=Index}/{id?}"] with result /
+2023-05-31 18:12:01.732 +08:00 [DBG] Found the endpoints ["Route: {controller=Home}/{action=Index}/{id?}"] for address (area=[],action=[Index],controller=[Home])
+2023-05-31 18:12:01.735 +08:00 [DBG] Successfully processed template {controller=Home}/{action=Index}/{id?} for Route: {controller=Home}/{action=Index}/{id?} resulting in  and 
+2023-05-31 18:12:01.739 +08:00 [DBG] Link generation succeeded for endpoints ["Route: {controller=Home}/{action=Index}/{id?}"] with result /
+2023-05-31 18:12:01.744 +08:00 [DBG] Found the endpoints ["Route: {controller=Home}/{action=Index}/{id?}"] for address (area=[],action=[Privacy],controller=[Home])
+2023-05-31 18:12:01.747 +08:00 [DBG] Successfully processed template {controller=Home}/{action=Index}/{id?} for Route: {controller=Home}/{action=Index}/{id?} resulting in /Home/Privacy and 
+2023-05-31 18:12:01.750 +08:00 [DBG] Link generation succeeded for endpoints ["Route: {controller=Home}/{action=Index}/{id?}"] with result /Home/Privacy
+2023-05-31 18:12:01.753 +08:00 [DBG] Found the endpoints ["Route: {controller=Home}/{action=Index}/{id?}"] for address (area=[],action=[Logout],controller=[Home])
+2023-05-31 18:12:01.758 +08:00 [DBG] Successfully processed template {controller=Home}/{action=Index}/{id?} for Route: {controller=Home}/{action=Index}/{id?} resulting in /Home/Logout and 
+2023-05-31 18:12:01.762 +08:00 [DBG] Link generation succeeded for endpoints ["Route: {controller=Home}/{action=Index}/{id?}"] with result /Home/Logout
+2023-05-31 18:12:01.765 +08:00 [DBG] Found the endpoints ["Route: {controller=Home}/{action=Index}/{id?}"] for address (area=[],action=[Privacy],controller=[Home])
+2023-05-31 18:12:01.768 +08:00 [DBG] Successfully processed template {controller=Home}/{action=Index}/{id?} for Route: {controller=Home}/{action=Index}/{id?} resulting in /Home/Privacy and 
+2023-05-31 18:12:01.773 +08:00 [DBG] Link generation succeeded for endpoints ["Route: {controller=Home}/{action=Index}/{id?}"] with result /Home/Privacy
+2023-05-31 18:12:01.781 +08:00 [INF] Executed ViewResult - view Privacy executed in 75.4126ms.
+2023-05-31 18:12:01.785 +08:00 [INF] Executed action AuthenticationExample.CookieAuthenticatioin.Controllers.HomeController.Privacy (CookieAuthenticatioin) in 134.187ms
+2023-05-31 18:12:01.789 +08:00 [INF] Executed endpoint 'AuthenticationExample.CookieAuthenticatioin.Controllers.HomeController.Privacy (CookieAuthenticatioin)'
+2023-05-31 18:12:01.794 +08:00 [INF] HTTP GET /Home/Privacy responded 200 in 195.5446 ms
+2023-05-31 18:12:01.802 +08:00 [DBG] Response markup is scheduled to include browser refresh script injection.
+2023-05-31 18:12:01.804 +08:00 [DBG] Response markup was updated to include browser refresh script injection.
+2023-05-31 18:12:01.812 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7064/Home/Privacy - - - 200 - text/html;+charset=utf-8 217.1939ms
+2023-05-31 18:12:01.865 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7064/_framework/aspnetcore-browser-refresh.js - -
+2023-05-31 18:12:01.867 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7064/_vs/browserLink - -
+2023-05-31 18:12:01.871 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7064/_framework/aspnetcore-browser-refresh.js - - - 200 12012 application/javascript;+charset=utf-8 5.8044ms
+2023-05-31 18:12:01.945 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7064/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 77.7103ms

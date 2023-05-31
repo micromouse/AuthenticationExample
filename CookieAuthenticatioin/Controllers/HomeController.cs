@@ -1,7 +1,11 @@
 ﻿using AuthenticationExample.CookieAuthenticatioin.Models;
+using Microsoft.AspNetCore.Authentication.Cookies;
+using Microsoft.AspNetCore.Authentication;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Serilog;
 using System.Diagnostics;
+using System.Text.Json;
 
 namespace AuthenticationExample.CookieAuthenticatioin.Controllers {
     /// <summary>
@@ -26,8 +30,22 @@ namespace AuthenticationExample.CookieAuthenticatioin.Controllers {
             return View();
         }
 
+        [Authorize]
         public IActionResult Privacy() {
+            ViewData["Claims"] = JsonSerializer.Serialize(HttpContext.User.Claims.Select(c => new { c.Type, c.Value }));
             return View();
+        }
+
+        /// <summary>
+        /// 注销用户
+        /// </summary>
+        /// <returns>注销结果</returns>
+        public async Task<IActionResult> Logout() {
+            if (HttpContext.User?.Identity?.IsAuthenticated ?? false) {
+                await HttpContext.SignOutAsync(CookieAuthenticationDefaults.AuthenticationScheme);
+            }
+
+            return RedirectToAction("Privacy");
         }
 
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]

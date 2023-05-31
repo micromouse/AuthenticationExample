@@ -1,6 +1,6 @@
+using Microsoft.AspNetCore.Authentication.Cookies;
 using Serilog;
 using Serilog.Events;
-using Serilog.Formatting.Compact;
 
 namespace AuthenticationExample.CookieAuthenticatioin {
     /// <summary>
@@ -26,7 +26,24 @@ namespace AuthenticationExample.CookieAuthenticatioin {
                     .ReadFrom.Services(services)
                     .Enrich.FromLogContext()
                     .WriteTo.Console());
-                
+
+                // Add services to the container.
+                builder.Services
+                    .AddAuthentication(options =>
+                    {
+                        options.DefaultChallengeScheme = CookieAuthenticationDefaults.AuthenticationScheme;
+                        options.DefaultScheme = CookieAuthenticationDefaults.AuthenticationScheme;
+                    }).AddCookie(options =>
+                    {
+                        options.Cookie.Name = "CookieAuthenticatioinSample";
+                        options.Cookie.HttpOnly = true;
+                        options.Cookie.SecurePolicy = CookieSecurePolicy.Always;
+                        options.LoginPath = "/Account/Login";
+                        options.AccessDeniedPath = "/Account/Denied";
+                    });
+                builder.Services
+                    .AddAuthorization()
+                    .AddTransient<IHttpContextAccessor, HttpContextAccessor>();
                 // Add services to the container.                
                 builder.Services.AddControllersWithViews();
 
@@ -60,7 +77,9 @@ namespace AuthenticationExample.CookieAuthenticatioin {
 
                 app.UseRouting();
 
+                app.UseAuthentication();
                 app.UseAuthorization();
+                app.UseStatusCodePagesWithReExecute("/Error/{0}");
 
                 app.MapControllerRoute(
                     name: "default",
