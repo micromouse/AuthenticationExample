@@ -52,7 +52,7 @@ namespace AuthenticationExample.CookieAuthenticatioin {
                 app.UseSerilogRequestLogging(options =>
                 {
                     // Customize the message template
-                    //options.MessageTemplate = "[{RequestMethod}-{StatusCode}-{Elapsed}]Handled {RequestScheme}//{RequestHost}{RequestPath}";
+                    options.MessageTemplate = "[{RemoteIpAddress}-{LoginUser}-{RequestMethod}-{StatusCode}-{Elapsed}]Handled {RequestScheme}//{RequestHost}{RequestPath}";
 
                     // Emit debug-level events instead of the defaults
                     //options.GetLevel = (httpContext, elapsed, ex) => LogEventLevel.Information;
@@ -62,6 +62,8 @@ namespace AuthenticationExample.CookieAuthenticatioin {
                     {
                         diagnosticContext.Set("RequestHost", httpContext.Request.Host.Value);
                         diagnosticContext.Set("RequestScheme", httpContext.Request.Scheme);
+                        diagnosticContext.Set("RemoteIpAddress", httpContext.Connection.RemoteIpAddress);
+                        diagnosticContext.Set("LoginUser", httpContext.User.Identity?.Name ?? "Î´µÇÂ¼");
                     };
                 });
 

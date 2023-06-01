@@ -32,6 +32,7 @@ namespace AuthenticationExample.CookieAuthenticatioin.Controllers {
 
         [Authorize]
         public IActionResult Privacy() {
+            _logger.LogInformation("正在处理请求[{Controller}-{Action}]", "HomeController", "Privacy");
             ViewData["Claims"] = JsonSerializer.Serialize(HttpContext.User.Claims.Select(c => new { c.Type, c.Value }));
             return View();
         }

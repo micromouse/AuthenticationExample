@@ -46,11 +46,12 @@ namespace AuthenticationExample.CookieAuthenticatioin.Controllers {
 
             if (model.Username == "admin" && model.Password == "admin") {
                 var claims = new[] {
-                    new Claim("Username", model.Username) ,
+                    //new Claim(ClaimTypes.Name, model.Username),
+                    new Claim("Username", model.Username),
                     new Claim("ReturnUrl", model.ReturnUrl ?? "/"),
                     new Claim("CreateTime", DateTime.Now.ToString())
                 };
-                var claimsIdentity = new ClaimsIdentity(claims, CookieAuthenticationDefaults.AuthenticationScheme);
+                var claimsIdentity = new ClaimsIdentity(claims, CookieAuthenticationDefaults.AuthenticationScheme, nameType: "Username", roleType: "role");
                 var principal = new ClaimsPrincipal(claimsIdentity);
                 await _accessor.HttpContext.SignInAsync(CookieAuthenticationDefaults.AuthenticationScheme, principal);
                 return Redirect(model.ReturnUrl ?? "/");
