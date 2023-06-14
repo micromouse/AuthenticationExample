@@ -1,5 +1,5 @@
 bin/
 obj/
-logs/
+Logs/
 .vs/
 .vscode/
